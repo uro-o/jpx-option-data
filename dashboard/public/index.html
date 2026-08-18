@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>日経225オプション建玉</title>
+
+<style>
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+
+    font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        Arial,
+        sans-serif;
+
+    background: #f5f6f8;
+
+    color: #222;
+}
+
+
+header {
+
+    background: #111827;
+
+    color: white;
+
+    padding: 18px 16px;
+
+}
+
+
+header h1 {
+
+    margin: 0 0 6px;
+
+    font-size: 21px;
+
+}
+
+
+.updated {
+
+    font-size: 13px;
+
+    opacity: 0.75;
+
+}
+
+
+.container {
+
+    padding: 12px;
+
+    max-width: 900px;
+
+    margin: auto;
+
+}
+
+
+.card {
+
+    background: white;
+
+    border-radius: 14px;
+
+    padding: 14px;
+
+    margin-bottom: 12px;
+
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.06);
+
+}
+
+
+select {
+
+    width: 100%;
+
+    padding: 12px;
+
+    font-size: 16px;
+
+    border-radius: 9px;
+
+    border: 1px solid #ccc;
+
+    background: white;
+
+}
+
+
+.summary {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 10px;
+
+}
+
+
+.metric {
+
+    background: #f3f4f6;
+
+    border-radius: 10px;
+
+    padding: 12px;
+
+}
+
+
+.metric-title {
+
+    font-size: 12px;
+
+    color: #666;
+
+}
+
+
+.metric-value {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    margin-top: 4px;
+
+}
+
+
+.table {
+
+    width: 100%;
+
+}
+
+
+.row {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 80px 1fr;
+
+    gap: 4px;
+
+    align-items: center;
+
+    min-height: 38px;
+
+}
+
+
+.header-row {
+
+    font-size: 11px;
+
+    color: #777;
+
+    border-bottom:
+        1px solid #ddd;
+
+    margin-bottom: 4px;
+
+}
+
+
+.strike {
+
+    text-align: center;
+
+    font-weight: bold;
+
+    font-size: 13px;
+
+}
+
+
+.call,
+.put {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 5px;
+
+}
+
+
+.call {
+
+    justify-content: flex-end;
+
+}
+
+
+.put {
+
+    justify-content: flex-start;
+
+}
+
+
+.bar {
+
+    height: 20px;
+
+    min-width: 2px;
+
+    border-radius: 4px;
+
+}
+
+
+.call .bar {
+
+    background: #dbeafe;
+
+}
+
+
+.put .bar {
+
+    background: #fee2e2;
+
+}
+
+
+.value {
+
+    font-size: 11px;
+
+    width: 46px;
+
+}
+
+
+.call .value {
+
+    text-align: right;
+
+}
+
+
+.put .value {
+
+    text-align: left;
+
+}
+
+
+.change {
+
+    font-size: 10px;
+
+    color: #666;
+
+}
+
+
+.positive {
+
+    color: #2563eb;
+
+}
+
+
+.negative {
+
+    color: #dc2626;
+
+}
+
+
+.note {
+
+    font-size: 11px;
+
+    color: #777;
+
+    line-height: 1.5;
+
+}
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>日経225オプション建玉</h1>
+
+<div class="updated"
+     id="updated">
+読み込み中...
+</div>
+
+</header>
+
+
+<div class="container">
+
+
+<div class="card">
+
+<select id="expiry"></select>
+
+</div>
+
+
+<div class="card">
+
+<div class="summary">
+
+<div class="metric">
+
+<div class="metric-title">
+Max Pain
+</div>
+
+<div class="metric-value"
+     id="maxPain">
+-
+</div>
+
+</div>
+
+
+<div class="metric">
+
+<div class="metric-title">
+限月
+</div>
+
+<div class="metric-value"
+     id="expiryLabel">
+-
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+<div class="card">
+
+<div class="table">
+
+
+<div class="row header-row">
+
+<div>CALL OI</div>
+
+<div class="strike">STRIKE</div>
+
+<div>PUT OI</div>
+
+</div>
+
+
+<div id="tableBody"></div>
+
+
+</div>
+
+</div>
+
+
+<div class="card note">
+
+建玉残高はJPX「デリバティブ建玉残高表」から取得しています。<br>
+
+前日比は建玉残高の前日比です。
+
+</div>
+
+
+</div>
+
+
+<script>
+
+let data = null;
+
+
+async function loadData() {
+
+    const response =
+        await fetch("data.json?ts=" + Date.now());
+
+    data = await response.json();
+
+    document.getElementById("updated")
+        .textContent =
+        data.updated + " 更新";
+
+    createExpirySelector();
+
+}
+
+
+function createExpirySelector() {
+
+    const select =
+        document.getElementById("expiry");
+
+    select.innerHTML = "";
+
+
+    data.expiries.forEach(expiry => {
+
+        const option =
+            document.createElement("option");
+
+        option.value = expiry;
+
+        option.textContent =
+            expiry.replace("-", "年")
+                  + "月限";
+
+        select.appendChild(option);
+
+    });
+
+
+    select.addEventListener(
+        "change",
+        render
+    );
+
+
+    render();
+
+}
+
+
+function render() {
+
+    const expiry =
+        document.getElementById("expiry")
+            .value;
+
+
+    document.getElementById("expiryLabel")
+        .textContent =
+        expiry.replace("-", "年")
+              + "月";
+
+
+    const maxPain =
+        data.max_pain[expiry];
+
+
+    document.getElementById("maxPain")
+        .textContent =
+        maxPain
+        ? maxPain.toLocaleString() + "円"
+        : "-";
+
+
+    const options =
+        data.options.filter(
+            x => x.expiry === expiry
+        );
+
+
+    const callMap = {};
+    const putMap = {};
+
+
+    options.forEach(x => {
+
+        if (x.type === "CALL") {
+
+            callMap[x.strike] = x;
+
+        } else {
+
+            putMap[x.strike] = x;
+
+        }
+
+    });
+
+
+    const strikes =
+        data.strikes[expiry] || [];
+
+
+    const maxOI =
+        Math.max(
+
+            1,
+
+            ...options.map(
+                x => x.oi
+            )
+
+        );
+
+
+    const body =
+        document.getElementById(
+            "tableBody"
+        );
+
+
+    body.innerHTML = "";
+
+
+    // 現在は全Strikeを表示
+    // 後から現在値付近だけ表示する機能も追加可能
+
+
+    strikes.forEach(strike => {
+
+        const call =
+            callMap[strike];
+
+        const put =
+            putMap[strike];
+
+
+        const callOI =
+            call ? call.oi : 0;
+
+        const putOI =
+            put ? put.oi : 0;
+
+
+        const callChange =
+            call ? call.change : 0;
+
+        const putChange =
+            put ? put.change : 0;
+
+
+        const row =
+            document.createElement(
+                "div"
+            );
+
+        row.className = "row";
+
+
+        const callWidth =
+            Math.max(
+                2,
+                callOI / maxOI * 100
+            );
+
+
+        const putWidth =
+            Math.max(
+                2,
+                putOI / maxOI * 100
+            );
+
+
+        row.innerHTML = `
+
+            <div class="call">
+
+                <span class="value">
+
+                    ${callOI.toLocaleString()}
+
+                    <span class="change
+                        ${callChange >= 0
+                            ? "positive"
+                            : "negative"}">
+
+                        (${callChange >= 0
+                            ? "+"
+                            : ""}
+                        ${callChange.toLocaleString()})
+
+                    </span>
+
+                </span>
+
+                <div class="bar"
+                     style="width:${callWidth}%">
+                </div>
+
+            </div>
+
+
+            <div class="strike">
+
+                ${strike.toLocaleString()}
+
+            </div>
+
+
+            <div class="put">
+
+                <div class="bar"
+                     style="width:${putWidth}%">
+                </div>
+
+                <span class="value">
+
+                    ${putOI.toLocaleString()}
+
+                    <span class="change
+                        ${putChange >= 0
+                            ? "positive"
+                            : "negative"}">
+
+                        (${putChange >= 0
+                            ? "+"
+                            : ""}
+                        ${putChange.toLocaleString()})
+
+                    </span>
+
+                </span>
+
+            </div>
+
+        `;
+
+
+        body.appendChild(row);
+
+    });
+
+}
+
+
+loadData();
+
+</script>
+
+
+</body>
+
+</html>
