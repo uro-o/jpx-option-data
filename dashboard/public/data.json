@@ -1,14 +1,14 @@
 {
-  "updated": "2026-09-01",
-  "source_file": "2026-09-01_open_interest.xlsx",
+  "updated": "2026-09-02",
+  "source_file": "2026-09-02_open_interest.xlsx",
   "expiries": [
     "2026-09",
     "2026-10",
     "2026-11"
   ],
   "max_pain": {
-    "2026-09": 63000,
-    "2026-10": 66750,
+    "2026-09": 63500,
+    "2026-10": 66000,
     "2026-11": 67000
   },
   "strikes": {
@@ -443,7 +443,6 @@
       64250,
       64500,
       64750,
-      64875,
       65000,
       65250,
       65375,
@@ -460,14 +459,11 @@
       67500,
       67625,
       67750,
-      67875,
       68000,
       68125,
       68250,
-      68375,
       68500,
       68750,
-      68875,
       69000,
       69250,
       69500,
@@ -488,6 +484,7 @@
       73000,
       73250,
       73500,
+      73750,
       74000,
       74250,
       74500,
@@ -608,7 +605,6 @@
       62500,
       63000,
       64000,
-      64125,
       64500,
       65000,
       65500,
@@ -629,6 +625,7 @@
       71000,
       71500,
       72000,
+      72250,
       72500,
       73750,
       74000,
@@ -656,9 +653,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 20000,
-      "volume": 0,
-      "oi": 1552,
-      "change": 0,
+      "volume": 23,
+      "oi": 1549,
+      "change": -3,
       "prev_oi": 1552
     },
     {
@@ -674,7 +671,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 21000,
-      "volume": 0,
+      "volume": 12,
       "oi": 343,
       "change": 0,
       "prev_oi": 343
@@ -746,7 +743,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 25000,
-      "volume": 0,
+      "volume": 3,
       "oi": 3940,
       "change": 0,
       "prev_oi": 3940
@@ -926,9 +923,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 29000,
-      "volume": 0,
-      "oi": 90,
-      "change": 0,
+      "volume": 1,
+      "oi": 89,
+      "change": -1,
       "prev_oi": 90
     },
     {
@@ -962,7 +959,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 29500,
-      "volume": 0,
+      "volume": 1,
       "oi": 30,
       "change": 0,
       "prev_oi": 30
@@ -1142,9 +1139,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 32000,
-      "volume": 0,
-      "oi": 184,
-      "change": 0,
+      "volume": 6,
+      "oi": 179,
+      "change": -5,
       "prev_oi": 184
     },
     {
@@ -1178,9 +1175,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 32500,
-      "volume": 0,
-      "oi": 33,
-      "change": 0,
+      "volume": 8,
+      "oi": 34,
+      "change": 1,
       "prev_oi": 33
     },
     {
@@ -1196,7 +1193,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 32750,
-      "volume": 0,
+      "volume": 5,
       "oi": 9,
       "change": 0,
       "prev_oi": 9
@@ -1214,9 +1211,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 33000,
-      "volume": 0,
-      "oi": 521,
-      "change": 0,
+      "volume": 10,
+      "oi": 511,
+      "change": -10,
       "prev_oi": 521
     },
     {
@@ -1250,9 +1247,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 33500,
-      "volume": 0,
-      "oi": 13,
-      "change": 0,
+      "volume": 8,
+      "oi": 21,
+      "change": 8,
       "prev_oi": 13
     },
     {
@@ -1286,16 +1283,16 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 34000,
-      "volume": 0,
-      "oi": 176,
-      "change": 0,
+      "volume": 9,
+      "oi": 180,
+      "change": 4,
       "prev_oi": 176
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 61500,
-      "volume": 1,
+      "volume": 0,
       "oi": 2,
       "change": 0,
       "prev_oi": 2
@@ -1322,10 +1319,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 34500,
-      "volume": 3,
+      "volume": 0,
       "oi": 35,
-      "change": -3,
-      "prev_oi": 38
+      "change": 0,
+      "prev_oi": 35
     },
     {
       "type": "CALL",
@@ -1340,7 +1337,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 34750,
-      "volume": 0,
+      "volume": 5,
       "oi": 69,
       "change": 0,
       "prev_oi": 69
@@ -1358,9 +1355,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 35000,
-      "volume": 4,
-      "oi": 3908,
-      "change": 0,
+      "volume": 45,
+      "oi": 3917,
+      "change": 9,
       "prev_oi": 3908
     },
     {
@@ -1376,9 +1373,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 35250,
-      "volume": 0,
-      "oi": 3,
-      "change": 0,
+      "volume": 5,
+      "oi": 8,
+      "change": 5,
       "prev_oi": 3
     },
     {
@@ -1394,9 +1391,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 35500,
-      "volume": 0,
-      "oi": 12,
-      "change": 0,
+      "volume": 8,
+      "oi": 20,
+      "change": 8,
       "prev_oi": 12
     },
     {
@@ -1430,18 +1427,18 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 36000,
-      "volume": 150,
-      "oi": 283,
-      "change": 133,
-      "prev_oi": 150
+      "volume": 70,
+      "oi": 286,
+      "change": 3,
+      "prev_oi": 283
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 64000,
-      "volume": 0,
-      "oi": 1689,
-      "change": 0,
+      "volume": 14,
+      "oi": 1695,
+      "change": 6,
       "prev_oi": 1689
     },
     {
@@ -1457,63 +1454,63 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 64250,
-      "volume": 0,
-      "oi": 100,
-      "change": 0,
+      "volume": 7,
+      "oi": 104,
+      "change": 4,
       "prev_oi": 100
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 36500,
-      "volume": 1,
-      "oi": 42,
-      "change": 0,
+      "volume": 5,
+      "oi": 46,
+      "change": 4,
       "prev_oi": 42
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 64500,
-      "volume": 0,
-      "oi": 104,
-      "change": 0,
+      "volume": 34,
+      "oi": 108,
+      "change": 4,
       "prev_oi": 104
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 36750,
-      "volume": 6,
-      "oi": 67,
-      "change": 0,
+      "volume": 2,
+      "oi": 69,
+      "change": 2,
       "prev_oi": 67
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 64750,
-      "volume": 0,
-      "oi": 1,
-      "change": 0,
+      "volume": 1,
+      "oi": 2,
+      "change": 1,
       "prev_oi": 1
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 37000,
-      "volume": 13,
-      "oi": 605,
-      "change": 2,
-      "prev_oi": 603
+      "volume": 11,
+      "oi": 600,
+      "change": -5,
+      "prev_oi": 605
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 64875,
-      "volume": 0,
-      "oi": 1,
-      "change": 0,
+      "volume": 26,
+      "oi": 27,
+      "change": 26,
       "prev_oi": 1
     },
     {
@@ -1529,27 +1526,27 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65000,
-      "volume": 13,
-      "oi": 5388,
-      "change": 1,
-      "prev_oi": 5387
+      "volume": 577,
+      "oi": 5371,
+      "change": -17,
+      "prev_oi": 5388
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 37500,
-      "volume": 0,
-      "oi": 21,
-      "change": 0,
+      "volume": 1,
+      "oi": 20,
+      "change": -1,
       "prev_oi": 21
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65125,
-      "volume": 0,
-      "oi": 2,
-      "change": 0,
+      "volume": 11,
+      "oi": 5,
+      "change": 3,
       "prev_oi": 2
     },
     {
@@ -1565,19 +1562,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65250,
-      "volume": 0,
-      "oi": 3,
-      "change": 0,
+      "volume": 20,
+      "oi": 11,
+      "change": 8,
       "prev_oi": 3
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 38000,
-      "volume": 153,
-      "oi": 966,
-      "change": 5,
-      "prev_oi": 961
+      "volume": 37,
+      "oi": 968,
+      "change": 2,
+      "prev_oi": 966
     },
     {
       "type": "CALL",
@@ -1601,25 +1598,25 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65500,
-      "volume": 12,
-      "oi": 192,
-      "change": 10,
-      "prev_oi": 182
+      "volume": 129,
+      "oi": 261,
+      "change": 69,
+      "prev_oi": 192
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 38500,
-      "volume": 6,
-      "oi": 240,
-      "change": 2,
-      "prev_oi": 238
+      "volume": 95,
+      "oi": 328,
+      "change": 88,
+      "prev_oi": 240
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65625,
-      "volume": 2,
+      "volume": 0,
       "oi": 5,
       "change": 0,
       "prev_oi": 5
@@ -1637,19 +1634,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 65750,
-      "volume": 0,
-      "oi": 9,
-      "change": 0,
+      "volume": 7,
+      "oi": 11,
+      "change": 2,
       "prev_oi": 9
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 39000,
-      "volume": 33,
-      "oi": 151,
-      "change": -12,
-      "prev_oi": 163
+      "volume": 66,
+      "oi": 194,
+      "change": 43,
+      "prev_oi": 151
     },
     {
       "type": "CALL",
@@ -1664,7 +1661,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 39250,
-      "volume": 1,
+      "volume": 0,
       "oi": 165,
       "change": 0,
       "prev_oi": 165
@@ -1673,34 +1670,34 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66000,
-      "volume": 149,
-      "oi": 1796,
-      "change": -4,
-      "prev_oi": 1800
+      "volume": 468,
+      "oi": 2020,
+      "change": 224,
+      "prev_oi": 1796
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 39500,
-      "volume": 20,
-      "oi": 306,
-      "change": -20,
-      "prev_oi": 326
+      "volume": 3,
+      "oi": 309,
+      "change": 3,
+      "prev_oi": 306
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66125,
-      "volume": 2,
+      "volume": 0,
       "oi": 40,
-      "change": -1,
-      "prev_oi": 41
+      "change": 0,
+      "prev_oi": 40
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 39750,
-      "volume": 1,
+      "volume": 0,
       "oi": 10,
       "change": 0,
       "prev_oi": 10
@@ -1709,19 +1706,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66250,
-      "volume": 6,
+      "volume": 9,
       "oi": 86,
-      "change": -1,
-      "prev_oi": 87
+      "change": 0,
+      "prev_oi": 86
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 40000,
-      "volume": 19,
-      "oi": 4916,
-      "change": 14,
-      "prev_oi": 4902
+      "volume": 202,
+      "oi": 4938,
+      "change": 22,
+      "prev_oi": 4916
     },
     {
       "type": "CALL",
@@ -1745,16 +1742,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66500,
-      "volume": 69,
-      "oi": 2421,
-      "change": 14,
-      "prev_oi": 2407
+      "volume": 748,
+      "oi": 2803,
+      "change": 382,
+      "prev_oi": 2421
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 40500,
-      "volume": 0,
+      "volume": 1,
       "oi": 181,
       "change": 0,
       "prev_oi": 181
@@ -1763,16 +1760,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66625,
-      "volume": 0,
-      "oi": 3,
-      "change": -1,
-      "prev_oi": 4
+      "volume": 2,
+      "oi": 4,
+      "change": 1,
+      "prev_oi": 3
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 40750,
-      "volume": 0,
+      "volume": 2,
       "oi": 49,
       "change": 0,
       "prev_oi": 49
@@ -1781,124 +1778,124 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66750,
-      "volume": 5,
+      "volume": 0,
       "oi": 1611,
-      "change": 1,
-      "prev_oi": 1610
+      "change": 0,
+      "prev_oi": 1611
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 41000,
-      "volume": 20,
-      "oi": 974,
-      "change": -10,
-      "prev_oi": 984
+      "volume": 35,
+      "oi": 1002,
+      "change": 28,
+      "prev_oi": 974
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 66875,
-      "volume": 0,
-      "oi": 7,
-      "change": -1,
-      "prev_oi": 8
+      "volume": 9,
+      "oi": 2,
+      "change": -5,
+      "prev_oi": 7
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 41250,
-      "volume": 0,
-      "oi": 31,
-      "change": 0,
+      "volume": 3,
+      "oi": 34,
+      "change": 3,
       "prev_oi": 31
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67000,
-      "volume": 259,
-      "oi": 2572,
-      "change": 16,
-      "prev_oi": 2556
+      "volume": 546,
+      "oi": 2765,
+      "change": 193,
+      "prev_oi": 2572
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 41500,
-      "volume": 43,
-      "oi": 65,
-      "change": 24,
-      "prev_oi": 41
+      "volume": 6,
+      "oi": 68,
+      "change": 3,
+      "prev_oi": 65
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67125,
-      "volume": 0,
-      "oi": 5,
-      "change": 0,
+      "volume": 2,
+      "oi": 6,
+      "change": 1,
       "prev_oi": 5
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 41750,
-      "volume": 0,
-      "oi": 26,
-      "change": 0,
+      "volume": 14,
+      "oi": 17,
+      "change": -9,
       "prev_oi": 26
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67250,
-      "volume": 6,
-      "oi": 16,
-      "change": 3,
-      "prev_oi": 13
+      "volume": 15,
+      "oi": 15,
+      "change": -1,
+      "prev_oi": 16
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 42000,
-      "volume": 47,
-      "oi": 2155,
-      "change": 5,
-      "prev_oi": 2150
+      "volume": 76,
+      "oi": 2193,
+      "change": 38,
+      "prev_oi": 2155
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67375,
-      "volume": 0,
-      "oi": 31,
-      "change": 0,
+      "volume": 15,
+      "oi": 33,
+      "change": 2,
       "prev_oi": 31
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 42250,
-      "volume": 0,
-      "oi": 21,
-      "change": 0,
+      "volume": 1,
+      "oi": 22,
+      "change": 1,
       "prev_oi": 21
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67500,
-      "volume": 147,
-      "oi": 1427,
-      "change": 30,
-      "prev_oi": 1397
+      "volume": 446,
+      "oi": 1626,
+      "change": 199,
+      "prev_oi": 1427
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 42500,
-      "volume": 1,
+      "volume": 0,
       "oi": 59,
       "change": 0,
       "prev_oi": 59
@@ -1907,9 +1904,9 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67625,
-      "volume": 1,
-      "oi": 42,
-      "change": 0,
+      "volume": 0,
+      "oi": 11,
+      "change": -31,
       "prev_oi": 42
     },
     {
@@ -1925,28 +1922,28 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67750,
-      "volume": 7,
-      "oi": 489,
-      "change": 1,
-      "prev_oi": 488
+      "volume": 13,
+      "oi": 495,
+      "change": 6,
+      "prev_oi": 489
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 43000,
-      "volume": 103,
-      "oi": 1213,
-      "change": 32,
-      "prev_oi": 1181
+      "volume": 47,
+      "oi": 1223,
+      "change": 10,
+      "prev_oi": 1213
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 67875,
-      "volume": 23,
+      "volume": 0,
       "oi": 56,
-      "change": 20,
-      "prev_oi": 36
+      "change": 0,
+      "prev_oi": 56
     },
     {
       "type": "PUT",
@@ -1961,16 +1958,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68000,
-      "volume": 442,
-      "oi": 3278,
-      "change": -128,
-      "prev_oi": 3406
+      "volume": 765,
+      "oi": 3398,
+      "change": 120,
+      "prev_oi": 3278
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 43500,
-      "volume": 0,
+      "volume": 1,
       "oi": 887,
       "change": 0,
       "prev_oi": 887
@@ -1979,16 +1976,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68125,
-      "volume": 9,
+      "volume": 0,
       "oi": 86,
-      "change": -4,
-      "prev_oi": 90
+      "change": 0,
+      "prev_oi": 86
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 43750,
-      "volume": 0,
+      "volume": 2,
       "oi": 16,
       "change": 0,
       "prev_oi": 16
@@ -1997,25 +1994,25 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68250,
-      "volume": 7,
-      "oi": 32,
-      "change": 2,
-      "prev_oi": 30
+      "volume": 38,
+      "oi": 55,
+      "change": 23,
+      "prev_oi": 32
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 44000,
-      "volume": 28,
-      "oi": 1439,
-      "change": -5,
-      "prev_oi": 1444
+      "volume": 85,
+      "oi": 1433,
+      "change": -6,
+      "prev_oi": 1439
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68375,
-      "volume": 4,
+      "volume": 1,
       "oi": 25,
       "change": 0,
       "prev_oi": 25
@@ -2024,7 +2021,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 44250,
-      "volume": 1,
+      "volume": 2,
       "oi": 33,
       "change": 0,
       "prev_oi": 33
@@ -2033,16 +2030,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68500,
-      "volume": 262,
-      "oi": 375,
-      "change": 184,
-      "prev_oi": 191
+      "volume": 351,
+      "oi": 636,
+      "change": 261,
+      "prev_oi": 375
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 44500,
-      "volume": 0,
+      "volume": 6,
       "oi": 213,
       "change": 0,
       "prev_oi": 213
@@ -2052,9 +2049,9 @@
       "expiry": "2026-09",
       "strike": 68625,
       "volume": 1,
-      "oi": 27,
-      "change": 1,
-      "prev_oi": 26
+      "oi": 26,
+      "change": -1,
+      "prev_oi": 27
     },
     {
       "type": "PUT",
@@ -2069,25 +2066,25 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68750,
-      "volume": 33,
+      "volume": 6,
       "oi": 319,
-      "change": 4,
-      "prev_oi": 315
+      "change": 0,
+      "prev_oi": 319
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 45000,
-      "volume": 22,
-      "oi": 2585,
-      "change": -9,
-      "prev_oi": 2594
+      "volume": 94,
+      "oi": 2580,
+      "change": -5,
+      "prev_oi": 2585
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 68875,
-      "volume": 0,
+      "volume": 1,
       "oi": 83,
       "change": 0,
       "prev_oi": 83
@@ -2096,7 +2093,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 45250,
-      "volume": 0,
+      "volume": 1,
       "oi": 105,
       "change": 0,
       "prev_oi": 105
@@ -2105,16 +2102,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69000,
-      "volume": 444,
-      "oi": 1897,
-      "change": -23,
-      "prev_oi": 1920
+      "volume": 834,
+      "oi": 2223,
+      "change": 326,
+      "prev_oi": 1897
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 45500,
-      "volume": 0,
+      "volume": 1,
       "oi": 160,
       "change": 0,
       "prev_oi": 160
@@ -2123,10 +2120,10 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69125,
-      "volume": 9,
-      "oi": 131,
-      "change": 5,
-      "prev_oi": 126
+      "volume": 3,
+      "oi": 129,
+      "change": -2,
+      "prev_oi": 131
     },
     {
       "type": "PUT",
@@ -2141,7 +2138,7 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69250,
-      "volume": 7,
+      "volume": 2,
       "oi": 113,
       "change": 0,
       "prev_oi": 113
@@ -2150,10 +2147,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 46000,
-      "volume": 53,
-      "oi": 1865,
-      "change": 2,
-      "prev_oi": 1863
+      "volume": 140,
+      "oi": 1929,
+      "change": 64,
+      "prev_oi": 1865
     },
     {
       "type": "CALL",
@@ -2177,25 +2174,25 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69500,
-      "volume": 52,
-      "oi": 765,
-      "change": 3,
-      "prev_oi": 762
+      "volume": 190,
+      "oi": 837,
+      "change": 72,
+      "prev_oi": 765
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 46500,
-      "volume": 24,
-      "oi": 409,
-      "change": 4,
-      "prev_oi": 405
+      "volume": 18,
+      "oi": 407,
+      "change": -2,
+      "prev_oi": 409
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69625,
-      "volume": 0,
+      "volume": 1,
       "oi": 73,
       "change": 0,
       "prev_oi": 73
@@ -2204,34 +2201,34 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 46750,
-      "volume": 34,
+      "volume": 36,
       "oi": 61,
-      "change": 34,
-      "prev_oi": 27
+      "change": 0,
+      "prev_oi": 61
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69750,
       "volume": 8,
-      "oi": 1463,
+      "oi": 1458,
       "change": -5,
-      "prev_oi": 1468
+      "prev_oi": 1463
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 47000,
-      "volume": 125,
-      "oi": 1184,
-      "change": 75,
-      "prev_oi": 1109
+      "volume": 182,
+      "oi": 1206,
+      "change": 22,
+      "prev_oi": 1184
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 69875,
-      "volume": 1,
+      "volume": 2,
       "oi": 47,
       "change": 0,
       "prev_oi": 47
@@ -2240,79 +2237,79 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 47250,
-      "volume": 101,
+      "volume": 1,
       "oi": 224,
-      "change": 100,
-      "prev_oi": 124
+      "change": 0,
+      "prev_oi": 224
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70000,
-      "volume": 1088,
-      "oi": 4094,
-      "change": 127,
-      "prev_oi": 3967
+      "volume": 1234,
+      "oi": 4234,
+      "change": 140,
+      "prev_oi": 4094
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 47500,
-      "volume": 25,
-      "oi": 1029,
-      "change": 1,
-      "prev_oi": 1028
+      "volume": 23,
+      "oi": 1035,
+      "change": 6,
+      "prev_oi": 1029
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70125,
-      "volume": 2,
-      "oi": 5,
-      "change": 2,
-      "prev_oi": 3
+      "volume": 3,
+      "oi": 4,
+      "change": -1,
+      "prev_oi": 5
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 47750,
-      "volume": 25,
+      "volume": 3,
       "oi": 117,
-      "change": 25,
-      "prev_oi": 92
+      "change": 0,
+      "prev_oi": 117
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70250,
-      "volume": 6,
-      "oi": 642,
-      "change": -6,
-      "prev_oi": 648
+      "volume": 28,
+      "oi": 653,
+      "change": 11,
+      "prev_oi": 642
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 48000,
-      "volume": 131,
-      "oi": 2953,
-      "change": -14,
-      "prev_oi": 2967
+      "volume": 66,
+      "oi": 2958,
+      "change": 5,
+      "prev_oi": 2953
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70375,
-      "volume": 5,
-      "oi": 4,
-      "change": 1,
-      "prev_oi": 3
+      "volume": 3,
+      "oi": 3,
+      "change": -1,
+      "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 48250,
-      "volume": 2,
+      "volume": 5,
       "oi": 124,
       "change": 0,
       "prev_oi": 124
@@ -2321,16 +2318,16 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70500,
-      "volume": 165,
-      "oi": 385,
-      "change": 16,
-      "prev_oi": 369
+      "volume": 151,
+      "oi": 400,
+      "change": 15,
+      "prev_oi": 385
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 48500,
-      "volume": 1,
+      "volume": 11,
       "oi": 761,
       "change": 0,
       "prev_oi": 761
@@ -2340,51 +2337,51 @@
       "expiry": "2026-09",
       "strike": 70625,
       "volume": 6,
-      "oi": 269,
-      "change": 2,
-      "prev_oi": 267
+      "oi": 268,
+      "change": -1,
+      "prev_oi": 269
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 48750,
-      "volume": 1,
+      "volume": 2,
       "oi": 151,
-      "change": -1,
-      "prev_oi": 152
+      "change": 0,
+      "prev_oi": 151
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70750,
-      "volume": 2,
-      "oi": 22,
-      "change": -14,
-      "prev_oi": 36
+      "volume": 46,
+      "oi": 37,
+      "change": 15,
+      "prev_oi": 22
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 49000,
-      "volume": 201,
-      "oi": 2174,
-      "change": 129,
-      "prev_oi": 2045
+      "volume": 280,
+      "oi": 2208,
+      "change": 34,
+      "prev_oi": 2174
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 70875,
-      "volume": 1,
+      "volume": 0,
       "oi": 61,
-      "change": -1,
-      "prev_oi": 62
+      "change": 0,
+      "prev_oi": 61
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 49250,
-      "volume": 0,
+      "volume": 1,
       "oi": 216,
       "change": 0,
       "prev_oi": 216
@@ -2393,55 +2390,55 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71000,
-      "volume": 467,
-      "oi": 1912,
-      "change": 28,
-      "prev_oi": 1884
+      "volume": 633,
+      "oi": 1763,
+      "change": -149,
+      "prev_oi": 1912
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 49500,
-      "volume": 82,
-      "oi": 255,
-      "change": 50,
-      "prev_oi": 205
+      "volume": 65,
+      "oi": 256,
+      "change": 1,
+      "prev_oi": 255
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71125,
-      "volume": 1,
-      "oi": 58,
-      "change": 0,
+      "volume": 2,
+      "oi": 59,
+      "change": 1,
       "prev_oi": 58
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 49750,
-      "volume": 4,
-      "oi": 152,
-      "change": 1,
-      "prev_oi": 151
+      "volume": 9,
+      "oi": 151,
+      "change": -1,
+      "prev_oi": 152
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71250,
-      "volume": 13,
+      "volume": 20,
       "oi": 86,
-      "change": 8,
-      "prev_oi": 78
+      "change": 0,
+      "prev_oi": 86
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 50000,
-      "volume": 407,
-      "oi": 10534,
-      "change": -29,
-      "prev_oi": 10563
+      "volume": 939,
+      "oi": 10161,
+      "change": -373,
+      "prev_oi": 10534
     },
     {
       "type": "CALL",
@@ -2456,43 +2453,43 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 50250,
-      "volume": 6,
-      "oi": 84,
-      "change": 0,
+      "volume": 5,
+      "oi": 85,
+      "change": 1,
       "prev_oi": 84
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71500,
-      "volume": 209,
-      "oi": 630,
-      "change": 76,
-      "prev_oi": 554
+      "volume": 139,
+      "oi": 623,
+      "change": -7,
+      "prev_oi": 630
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 50500,
-      "volume": 77,
-      "oi": 1371,
-      "change": 7,
-      "prev_oi": 1364
+      "volume": 140,
+      "oi": 1432,
+      "change": 61,
+      "prev_oi": 1371
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71625,
-      "volume": 4,
-      "oi": 4,
-      "change": 0,
+      "volume": 3,
+      "oi": 2,
+      "change": -2,
       "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 50750,
-      "volume": 2,
+      "volume": 6,
       "oi": 175,
       "change": 0,
       "prev_oi": 175
@@ -2501,19 +2498,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 71750,
-      "volume": 2,
-      "oi": 20,
-      "change": 0,
+      "volume": 3,
+      "oi": 19,
+      "change": -1,
       "prev_oi": 20
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 51000,
-      "volume": 268,
-      "oi": 1430,
-      "change": -1,
-      "prev_oi": 1431
+      "volume": 233,
+      "oi": 1468,
+      "change": 38,
+      "prev_oi": 1430
     },
     {
       "type": "CALL",
@@ -2528,7 +2525,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 51250,
-      "volume": 2,
+      "volume": 0,
       "oi": 218,
       "change": 0,
       "prev_oi": 218
@@ -2537,34 +2534,34 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72000,
-      "volume": 209,
-      "oi": 2464,
-      "change": 13,
-      "prev_oi": 2451
+      "volume": 548,
+      "oi": 2498,
+      "change": 34,
+      "prev_oi": 2464
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 51500,
-      "volume": 4,
-      "oi": 275,
-      "change": 0,
+      "volume": 3,
+      "oi": 277,
+      "change": 2,
       "prev_oi": 275
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72125,
-      "volume": 1,
+      "volume": 0,
       "oi": 78,
-      "change": -1,
-      "prev_oi": 79
+      "change": 0,
+      "prev_oi": 78
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 51750,
-      "volume": 1,
+      "volume": 0,
       "oi": 54,
       "change": 0,
       "prev_oi": 54
@@ -2573,55 +2570,55 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72250,
-      "volume": 2,
-      "oi": 40,
-      "change": 0,
+      "volume": 14,
+      "oi": 48,
+      "change": 8,
       "prev_oi": 40
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 52000,
-      "volume": 61,
-      "oi": 2403,
-      "change": 1,
-      "prev_oi": 2402
+      "volume": 108,
+      "oi": 2422,
+      "change": 19,
+      "prev_oi": 2403
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72375,
-      "volume": 0,
-      "oi": 10,
-      "change": 0,
+      "volume": 4,
+      "oi": 14,
+      "change": 4,
       "prev_oi": 10
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 52250,
-      "volume": 4,
-      "oi": 67,
-      "change": 0,
+      "volume": 7,
+      "oi": 64,
+      "change": -3,
       "prev_oi": 67
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72500,
-      "volume": 331,
-      "oi": 1746,
-      "change": -107,
-      "prev_oi": 1853
+      "volume": 78,
+      "oi": 1647,
+      "change": -99,
+      "prev_oi": 1746
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 52500,
-      "volume": 10,
-      "oi": 622,
-      "change": 3,
-      "prev_oi": 619
+      "volume": 3,
+      "oi": 619,
+      "change": -3,
+      "prev_oi": 622
     },
     {
       "type": "CALL",
@@ -2629,71 +2626,71 @@
       "strike": 72625,
       "volume": 1,
       "oi": 5,
-      "change": 1,
-      "prev_oi": 4
+      "change": 0,
+      "prev_oi": 5
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 52750,
-      "volume": 0,
-      "oi": 40,
-      "change": 0,
+      "volume": 8,
+      "oi": 37,
+      "change": -3,
       "prev_oi": 40
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72750,
-      "volume": 101,
-      "oi": 303,
-      "change": 101,
-      "prev_oi": 202
+      "volume": 9,
+      "oi": 304,
+      "change": 1,
+      "prev_oi": 303
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 53000,
-      "volume": 238,
-      "oi": 2487,
-      "change": 74,
-      "prev_oi": 2413
+      "volume": 215,
+      "oi": 2502,
+      "change": 15,
+      "prev_oi": 2487
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 72875,
-      "volume": 0,
-      "oi": 34,
-      "change": 0,
+      "volume": 3,
+      "oi": 37,
+      "change": 3,
       "prev_oi": 34
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 53250,
-      "volume": 2,
-      "oi": 46,
-      "change": 0,
+      "volume": 5,
+      "oi": 41,
+      "change": -5,
       "prev_oi": 46
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73000,
-      "volume": 331,
-      "oi": 1664,
-      "change": 16,
-      "prev_oi": 1648
+      "volume": 672,
+      "oi": 2059,
+      "change": 395,
+      "prev_oi": 1664
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 53500,
-      "volume": 12,
-      "oi": 982,
-      "change": -5,
-      "prev_oi": 987
+      "volume": 35,
+      "oi": 985,
+      "change": 3,
+      "prev_oi": 982
     },
     {
       "type": "CALL",
@@ -2717,7 +2714,7 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73250,
-      "volume": 1,
+      "volume": 0,
       "oi": 14,
       "change": 0,
       "prev_oi": 14
@@ -2726,46 +2723,46 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 54000,
-      "volume": 271,
-      "oi": 2903,
-      "change": 17,
-      "prev_oi": 2886
+      "volume": 234,
+      "oi": 2861,
+      "change": -42,
+      "prev_oi": 2903
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73375,
       "volume": 1,
-      "oi": 3,
+      "oi": 4,
       "change": 1,
-      "prev_oi": 2
+      "prev_oi": 3
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 54250,
-      "volume": 0,
-      "oi": 112,
-      "change": 0,
+      "volume": 8,
+      "oi": 109,
+      "change": -3,
       "prev_oi": 112
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73500,
-      "volume": 24,
-      "oi": 524,
-      "change": 15,
-      "prev_oi": 509
+      "volume": 69,
+      "oi": 530,
+      "change": 6,
+      "prev_oi": 524
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 54500,
-      "volume": 8,
-      "oi": 672,
-      "change": 7,
-      "prev_oi": 665
+      "volume": 28,
+      "oi": 691,
+      "change": 19,
+      "prev_oi": 672
     },
     {
       "type": "CALL",
@@ -2789,7 +2786,7 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73750,
-      "volume": 0,
+      "volume": 43,
       "oi": 53,
       "change": 0,
       "prev_oi": 53
@@ -2798,52 +2795,52 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 55000,
-      "volume": 1975,
-      "oi": 6014,
-      "change": -1018,
-      "prev_oi": 7032
+      "volume": 965,
+      "oi": 5501,
+      "change": -513,
+      "prev_oi": 6014
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 73875,
-      "volume": 7,
+      "volume": 0,
       "oi": 25,
-      "change": 7,
-      "prev_oi": 18
+      "change": 0,
+      "prev_oi": 25
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 55250,
-      "volume": 1,
+      "volume": 0,
       "oi": 20,
-      "change": 1,
-      "prev_oi": 19
+      "change": 0,
+      "prev_oi": 20
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74000,
-      "volume": 212,
-      "oi": 1392,
-      "change": 26,
-      "prev_oi": 1366
+      "volume": 618,
+      "oi": 1301,
+      "change": -91,
+      "prev_oi": 1392
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 55500,
-      "volume": 32,
-      "oi": 707,
-      "change": 0,
+      "volume": 76,
+      "oi": 761,
+      "change": 54,
       "prev_oi": 707
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74125,
-      "volume": 0,
+      "volume": 3,
       "oi": 6,
       "change": 0,
       "prev_oi": 6
@@ -2861,19 +2858,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74250,
-      "volume": 1,
+      "volume": 2,
       "oi": 6,
-      "change": 1,
-      "prev_oi": 5
+      "change": 0,
+      "prev_oi": 6
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 56000,
-      "volume": 154,
-      "oi": 2064,
-      "change": 33,
-      "prev_oi": 2031
+      "volume": 355,
+      "oi": 2213,
+      "change": 149,
+      "prev_oi": 2064
     },
     {
       "type": "CALL",
@@ -2888,105 +2885,69 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 56250,
-      "volume": 30,
-      "oi": 41,
-      "change": 10,
-      "prev_oi": 31
+      "volume": 1,
+      "oi": 42,
+      "change": 1,
+      "prev_oi": 41
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74500,
-      "volume": 41,
-      "oi": 168,
-      "change": -5,
-      "prev_oi": 173
+      "volume": 45,
+      "oi": 141,
+      "change": -27,
+      "prev_oi": 168
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 56500,
-      "volume": 8,
-      "oi": 895,
-      "change": 3,
-      "prev_oi": 892
+      "volume": 900,
+      "oi": 1751,
+      "change": 856,
+      "prev_oi": 895
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74625,
-      "volume": 1,
+      "volume": 0,
       "oi": 57,
-      "change": 1,
-      "prev_oi": 56
+      "change": 0,
+      "prev_oi": 57
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 56750,
-      "volume": 19,
+      "volume": 0,
       "oi": 207,
-      "change": 5,
-      "prev_oi": 202
+      "change": 0,
+      "prev_oi": 207
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74750,
-      "volume": 10,
-      "oi": 68,
-      "change": 0,
+      "volume": 1,
+      "oi": 69,
+      "change": 1,
       "prev_oi": 68
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 57000,
-      "volume": 1597,
-      "oi": 3385,
-      "change": 129,
-      "prev_oi": 3256
+      "volume": 1882,
+      "oi": 3966,
+      "change": 581,
+      "prev_oi": 3385
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 74875,
-      "volume": 1,
-      "oi": 1,
-      "change": 1,
-      "prev_oi": 0
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
-      "strike": 57250,
-      "volume": 0,
-      "oi": 180,
-      "change": 0,
-      "prev_oi": 180
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-09",
-      "strike": 75000,
-      "volume": 201,
-      "oi": 3305,
-      "change": -5,
-      "prev_oi": 3310
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
-      "strike": 57500,
-      "volume": 125,
-      "oi": 654,
-      "change": 47,
-      "prev_oi": 607
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-09",
-      "strike": 75125,
       "volume": 0,
       "oi": 1,
       "change": 0,
@@ -2995,29 +2956,65 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 57750,
-      "volume": 6,
-      "oi": 102,
+      "strike": 57250,
+      "volume": 1,
+      "oi": 179,
       "change": -1,
-      "prev_oi": 103
+      "prev_oi": 180
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-09",
+      "strike": 75000,
+      "volume": 418,
+      "oi": 3463,
+      "change": 158,
+      "prev_oi": 3305
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 57500,
+      "volume": 77,
+      "oi": 668,
+      "change": 14,
+      "prev_oi": 654
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-09",
+      "strike": 75125,
+      "volume": 1,
+      "oi": 0,
+      "change": -1,
+      "prev_oi": 1
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 57750,
+      "volume": 1,
+      "oi": 102,
+      "change": 0,
+      "prev_oi": 102
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 75250,
-      "volume": 15,
+      "volume": 5,
       "oi": 45,
-      "change": 1,
-      "prev_oi": 44
+      "change": 0,
+      "prev_oi": 45
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58000,
-      "volume": 189,
-      "oi": 2578,
-      "change": 26,
-      "prev_oi": 2552
+      "volume": 548,
+      "oi": 2599,
+      "change": 21,
+      "prev_oi": 2578
     },
     {
       "type": "CALL",
@@ -3032,88 +3029,88 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58250,
-      "volume": 1,
-      "oi": 272,
-      "change": -1,
-      "prev_oi": 273
+      "volume": 13,
+      "oi": 276,
+      "change": 4,
+      "prev_oi": 272
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 75500,
-      "volume": 19,
-      "oi": 250,
-      "change": 1,
-      "prev_oi": 249
+      "volume": 56,
+      "oi": 266,
+      "change": 16,
+      "prev_oi": 250
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58375,
-      "volume": 2,
-      "oi": 3,
-      "change": 0,
+      "volume": 3,
+      "oi": 6,
+      "change": 3,
       "prev_oi": 3
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 76000,
-      "volume": 38,
-      "oi": 663,
-      "change": -16,
-      "prev_oi": 679
+      "volume": 81,
+      "oi": 658,
+      "change": -5,
+      "prev_oi": 663
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58500,
-      "volume": 23,
-      "oi": 1906,
-      "change": 3,
-      "prev_oi": 1903
+      "volume": 1129,
+      "oi": 2641,
+      "change": 735,
+      "prev_oi": 1906
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 76500,
-      "volume": 16,
-      "oi": 97,
-      "change": -5,
-      "prev_oi": 102
+      "volume": 21,
+      "oi": 82,
+      "change": -15,
+      "prev_oi": 97
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58625,
-      "volume": 2,
-      "oi": 3,
-      "change": 1,
-      "prev_oi": 2
+      "volume": 4,
+      "oi": 5,
+      "change": 2,
+      "prev_oi": 3
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 77000,
-      "volume": 97,
-      "oi": 920,
-      "change": 25,
-      "prev_oi": 895
+      "volume": 116,
+      "oi": 833,
+      "change": -87,
+      "prev_oi": 920
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58750,
-      "volume": 3,
-      "oi": 96,
-      "change": 2,
-      "prev_oi": 94
+      "volume": 53,
+      "oi": 103,
+      "change": 7,
+      "prev_oi": 96
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 77500,
-      "volume": 7,
+      "volume": 16,
       "oi": 978,
       "change": 0,
       "prev_oi": 978
@@ -3122,88 +3119,88 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 58875,
-      "volume": 1,
-      "oi": 15,
-      "change": 1,
-      "prev_oi": 14
+      "volume": 4,
+      "oi": 19,
+      "change": 4,
+      "prev_oi": 15
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 78000,
-      "volume": 14,
-      "oi": 2461,
-      "change": -9,
-      "prev_oi": 2470
+      "volume": 170,
+      "oi": 2300,
+      "change": -161,
+      "prev_oi": 2461
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59000,
-      "volume": 272,
-      "oi": 3095,
-      "change": 64,
-      "prev_oi": 3031
+      "volume": 384,
+      "oi": 3215,
+      "change": 120,
+      "prev_oi": 3095
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 78500,
-      "volume": 4,
-      "oi": 87,
-      "change": 0,
+      "volume": 95,
+      "oi": 112,
+      "change": 25,
       "prev_oi": 87
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59125,
-      "volume": 2,
-      "oi": 21,
-      "change": 2,
-      "prev_oi": 19
+      "volume": 3,
+      "oi": 24,
+      "change": 3,
+      "prev_oi": 21
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 79000,
-      "volume": 66,
-      "oi": 252,
-      "change": -29,
-      "prev_oi": 281
+      "volume": 136,
+      "oi": 204,
+      "change": -48,
+      "prev_oi": 252
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59250,
-      "volume": 0,
-      "oi": 117,
-      "change": 0,
+      "volume": 6,
+      "oi": 123,
+      "change": 6,
       "prev_oi": 117
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 79500,
-      "volume": 6,
-      "oi": 234,
-      "change": 1,
-      "prev_oi": 233
+      "volume": 1,
+      "oi": 233,
+      "change": -1,
+      "prev_oi": 234
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59375,
-      "volume": 0,
-      "oi": 16,
-      "change": 0,
+      "volume": 1,
+      "oi": 17,
+      "change": 1,
       "prev_oi": 16
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 80000,
-      "volume": 11,
+      "volume": 3,
       "oi": 1827,
       "change": 0,
       "prev_oi": 1827
@@ -3212,10 +3209,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59500,
-      "volume": 54,
-      "oi": 913,
-      "change": 4,
-      "prev_oi": 909
+      "volume": 49,
+      "oi": 932,
+      "change": 19,
+      "prev_oi": 913
     },
     {
       "type": "CALL",
@@ -3230,28 +3227,28 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59625,
-      "volume": 1,
+      "volume": 0,
       "oi": 2,
-      "change": 1,
-      "prev_oi": 1
+      "change": 0,
+      "prev_oi": 2
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 81000,
-      "volume": 1,
+      "volume": 0,
       "oi": 395,
-      "change": -1,
-      "prev_oi": 396
+      "change": 0,
+      "prev_oi": 395
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59750,
       "volume": 5,
-      "oi": 93,
-      "change": 4,
-      "prev_oi": 89
+      "oi": 95,
+      "change": 2,
+      "prev_oi": 93
     },
     {
       "type": "CALL",
@@ -3266,28 +3263,28 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 59875,
-      "volume": 1,
-      "oi": 21,
-      "change": 0,
+      "volume": 5,
+      "oi": 23,
+      "change": 2,
       "prev_oi": 21
     },
     {
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 82000,
-      "volume": 2,
+      "volume": 0,
       "oi": 340,
-      "change": -1,
-      "prev_oi": 341
+      "change": 0,
+      "prev_oi": 340
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60000,
-      "volume": 985,
-      "oi": 9295,
-      "change": -284,
-      "prev_oi": 9579
+      "volume": 1960,
+      "oi": 9768,
+      "change": 473,
+      "prev_oi": 9295
     },
     {
       "type": "CALL",
@@ -3320,7 +3317,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60250,
-      "volume": 0,
+      "volume": 13,
       "oi": 97,
       "change": 0,
       "prev_oi": 97
@@ -3329,19 +3326,19 @@
       "type": "CALL",
       "expiry": "2026-09",
       "strike": 83500,
-      "volume": 0,
-      "oi": 49,
-      "change": 0,
+      "volume": 1,
+      "oi": 50,
+      "change": 1,
       "prev_oi": 49
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60375,
-      "volume": 1,
+      "volume": 0,
       "oi": 19,
-      "change": 1,
-      "prev_oi": 18
+      "change": 0,
+      "prev_oi": 19
     },
     {
       "type": "CALL",
@@ -3356,10 +3353,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60500,
-      "volume": 19,
-      "oi": 2122,
-      "change": 1,
-      "prev_oi": 2121
+      "volume": 110,
+      "oi": 2147,
+      "change": 25,
+      "prev_oi": 2122
     },
     {
       "type": "CALL",
@@ -3374,9 +3371,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60625,
-      "volume": 1,
-      "oi": 11,
-      "change": 0,
+      "volume": 3,
+      "oi": 12,
+      "change": 1,
       "prev_oi": 11
     },
     {
@@ -3392,9 +3389,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 60750,
-      "volume": 0,
-      "oi": 169,
-      "change": 0,
+      "volume": 2,
+      "oi": 170,
+      "change": 1,
       "prev_oi": 169
     },
     {
@@ -3428,10 +3425,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61000,
-      "volume": 389,
-      "oi": 2705,
-      "change": -51,
-      "prev_oi": 2756
+      "volume": 1048,
+      "oi": 2499,
+      "change": -206,
+      "prev_oi": 2705
     },
     {
       "type": "CALL",
@@ -3446,10 +3443,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61125,
-      "volume": 1,
+      "volume": 0,
       "oi": 36,
-      "change": -1,
-      "prev_oi": 37
+      "change": 0,
+      "prev_oi": 36
     },
     {
       "type": "CALL",
@@ -3464,9 +3461,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61250,
-      "volume": 2,
-      "oi": 64,
-      "change": 0,
+      "volume": 81,
+      "oi": 80,
+      "change": 16,
       "prev_oi": 64
     },
     {
@@ -3482,7 +3479,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61375,
-      "volume": 1,
+      "volume": 0,
       "oi": 2,
       "change": 0,
       "prev_oi": 2
@@ -3500,9 +3497,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61500,
-      "volume": 65,
-      "oi": 1577,
-      "change": 0,
+      "volume": 178,
+      "oi": 1656,
+      "change": 79,
       "prev_oi": 1577
     },
     {
@@ -3536,10 +3533,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 61750,
-      "volume": 6,
-      "oi": 252,
-      "change": -4,
-      "prev_oi": 256
+      "volume": 23,
+      "oi": 253,
+      "change": 1,
+      "prev_oi": 252
     },
     {
       "type": "PUT",
@@ -3554,10 +3551,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62000,
-      "volume": 840,
-      "oi": 3516,
-      "change": 116,
-      "prev_oi": 3400
+      "volume": 830,
+      "oi": 3564,
+      "change": 48,
+      "prev_oi": 3516
     },
     {
       "type": "CALL",
@@ -3590,10 +3587,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62250,
-      "volume": 7,
-      "oi": 153,
-      "change": 4,
-      "prev_oi": 149
+      "volume": 16,
+      "oi": 162,
+      "change": 9,
+      "prev_oi": 153
     },
     {
       "type": "CALL",
@@ -3608,9 +3605,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62375,
-      "volume": 1,
-      "oi": 264,
-      "change": 0,
+      "volume": 6,
+      "oi": 268,
+      "change": 4,
       "prev_oi": 264
     },
     {
@@ -3626,10 +3623,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62500,
-      "volume": 68,
-      "oi": 954,
-      "change": 21,
-      "prev_oi": 933
+      "volume": 223,
+      "oi": 965,
+      "change": 11,
+      "prev_oi": 954
     },
     {
       "type": "CALL",
@@ -3644,9 +3641,9 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62625,
-      "volume": 1,
-      "oi": 89,
-      "change": 0,
+      "volume": 8,
+      "oi": 93,
+      "change": 4,
       "prev_oi": 89
     },
     {
@@ -3662,10 +3659,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62750,
-      "volume": 13,
+      "volume": 1,
       "oi": 765,
-      "change": 10,
-      "prev_oi": 755
+      "change": 0,
+      "prev_oi": 765
     },
     {
       "type": "CALL",
@@ -3680,7 +3677,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 62875,
-      "volume": 1,
+      "volume": 7,
       "oi": 40,
       "change": 0,
       "prev_oi": 40
@@ -3698,10 +3695,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63000,
-      "volume": 595,
-      "oi": 3005,
-      "change": -204,
-      "prev_oi": 3209
+      "volume": 1729,
+      "oi": 3201,
+      "change": 196,
+      "prev_oi": 3005
     },
     {
       "type": "CALL",
@@ -3718,8 +3715,8 @@
       "strike": 63125,
       "volume": 3,
       "oi": 108,
-      "change": 1,
-      "prev_oi": 107
+      "change": 0,
+      "prev_oi": 108
     },
     {
       "type": "CALL",
@@ -3734,10 +3731,10 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63250,
-      "volume": 6,
+      "volume": 0,
       "oi": 64,
-      "change": 2,
-      "prev_oi": 62
+      "change": 0,
+      "prev_oi": 64
     },
     {
       "type": "CALL",
@@ -3752,28 +3749,28 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63375,
-      "volume": 2,
-      "oi": 58,
-      "change": 0,
+      "volume": 5,
+      "oi": 61,
+      "change": 3,
       "prev_oi": 58
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 63500,
-      "volume": 1,
-      "oi": 0,
-      "change": 0,
+      "volume": 5,
+      "oi": 1,
+      "change": 1,
       "prev_oi": 0
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63500,
-      "volume": 53,
-      "oi": 719,
-      "change": 13,
-      "prev_oi": 706
+      "volume": 138,
+      "oi": 664,
+      "change": -55,
+      "prev_oi": 719
     },
     {
       "type": "CALL",
@@ -3788,7 +3785,7 @@
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63625,
-      "volume": 1,
+      "volume": 0,
       "oi": 40,
       "change": 0,
       "prev_oi": 40
@@ -3797,34 +3794,34 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 64000,
-      "volume": 5,
-      "oi": 31,
-      "change": 0,
+      "volume": 24,
+      "oi": 32,
+      "change": 1,
       "prev_oi": 31
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63750,
-      "volume": 4,
-      "oi": 58,
-      "change": 0,
+      "volume": 5,
+      "oi": 59,
+      "change": 1,
       "prev_oi": 58
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 65000,
-      "volume": 0,
-      "oi": 145,
-      "change": 0,
-      "prev_oi": 145
+      "strike": 64500,
+      "volume": 29,
+      "oi": 20,
+      "change": 20,
+      "prev_oi": 0
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 63875,
-      "volume": 1,
+      "volume": 4,
       "oi": 49,
       "change": 0,
       "prev_oi": 49
@@ -3832,8 +3829,26 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
+      "strike": 65000,
+      "volume": 117,
+      "oi": 251,
+      "change": 106,
+      "prev_oi": 145
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 64000,
+      "volume": 1119,
+      "oi": 3723,
+      "change": 691,
+      "prev_oi": 3032
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
       "strike": 65250,
-      "volume": 0,
+      "volume": 5,
       "oi": 1,
       "change": 0,
       "prev_oi": 1
@@ -3841,28 +3856,28 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64000,
-      "volume": 376,
-      "oi": 3032,
-      "change": -174,
-      "prev_oi": 3206
+      "strike": 64125,
+      "volume": 7,
+      "oi": 28,
+      "change": 2,
+      "prev_oi": 26
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 65500,
-      "volume": 120,
+      "volume": 0,
       "oi": 121,
-      "change": -60,
-      "prev_oi": 181
+      "change": 0,
+      "prev_oi": 121
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64125,
-      "volume": 8,
-      "oi": 26,
-      "change": 2,
+      "strike": 64250,
+      "volume": 27,
+      "oi": 42,
+      "change": 18,
       "prev_oi": 24
     },
     {
@@ -3877,11 +3892,11 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64250,
-      "volume": 7,
-      "oi": 24,
-      "change": 2,
-      "prev_oi": 22
+      "strike": 64375,
+      "volume": 0,
+      "oi": 49,
+      "change": 0,
+      "prev_oi": 49
     },
     {
       "type": "CALL",
@@ -3895,29 +3910,29 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64375,
-      "volume": 23,
-      "oi": 49,
-      "change": 20,
-      "prev_oi": 29
+      "strike": 64500,
+      "volume": 373,
+      "oi": 651,
+      "change": -51,
+      "prev_oi": 702
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 66000,
-      "volume": 19,
-      "oi": 470,
-      "change": 8,
-      "prev_oi": 462
+      "volume": 297,
+      "oi": 712,
+      "change": 242,
+      "prev_oi": 470
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64500,
-      "volume": 43,
-      "oi": 702,
-      "change": -36,
-      "prev_oi": 738
+      "strike": 64625,
+      "volume": 5,
+      "oi": 66,
+      "change": 0,
+      "prev_oi": 66
     },
     {
       "type": "CALL",
@@ -3931,11 +3946,11 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64625,
-      "volume": 2,
-      "oi": 66,
-      "change": 1,
-      "prev_oi": 65
+      "strike": 64750,
+      "volume": 20,
+      "oi": 500,
+      "change": -22,
+      "prev_oi": 522
     },
     {
       "type": "CALL",
@@ -3949,47 +3964,47 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 64750,
-      "volume": 29,
-      "oi": 522,
-      "change": -17,
-      "prev_oi": 539
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 66500,
-      "volume": 9,
-      "oi": 3,
-      "change": -3,
-      "prev_oi": 6
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
       "strike": 64875,
-      "volume": 1,
-      "oi": 13,
-      "change": 0,
+      "volume": 6,
+      "oi": 12,
+      "change": -1,
       "prev_oi": 13
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 66750,
-      "volume": 6,
-      "oi": 124,
-      "change": 5,
-      "prev_oi": 119
+      "strike": 66500,
+      "volume": 0,
+      "oi": 3,
+      "change": 0,
+      "prev_oi": 3
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 65000,
-      "volume": 560,
-      "oi": 4363,
-      "change": 4,
-      "prev_oi": 4359
+      "volume": 162,
+      "oi": 4133,
+      "change": -230,
+      "prev_oi": 4363
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
+      "strike": 66750,
+      "volume": 3,
+      "oi": 123,
+      "change": -1,
+      "prev_oi": 124
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 65125,
+      "volume": 2,
+      "oi": 34,
+      "change": -2,
+      "prev_oi": 36
     },
     {
       "type": "CALL",
@@ -4003,26 +4018,8 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 65125,
-      "volume": 2,
-      "oi": 36,
-      "change": 0,
-      "prev_oi": 36
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 67000,
-      "volume": 20,
-      "oi": 509,
-      "change": 4,
-      "prev_oi": 505
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
       "strike": 65250,
-      "volume": 7,
+      "volume": 1,
       "oi": 100,
       "change": 0,
       "prev_oi": 100
@@ -4030,20 +4027,56 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 67500,
-      "volume": 100,
-      "oi": 123,
-      "change": -23,
-      "prev_oi": 146
+      "strike": 67000,
+      "volume": 60,
+      "oi": 521,
+      "change": 12,
+      "prev_oi": 509
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 65375,
-      "volume": 1,
+      "volume": 0,
       "oi": 31,
       "change": 0,
       "prev_oi": 31
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
+      "strike": 67500,
+      "volume": 149,
+      "oi": 162,
+      "change": 39,
+      "prev_oi": 123
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 65500,
+      "volume": 34,
+      "oi": 531,
+      "change": -2,
+      "prev_oi": 533
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
+      "strike": 67625,
+      "volume": 85,
+      "oi": 85,
+      "change": 85,
+      "prev_oi": 0
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 65625,
+      "volume": 2,
+      "oi": 27,
+      "change": -2,
+      "prev_oi": 29
     },
     {
       "type": "CALL",
@@ -4057,56 +4090,20 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 65500,
-      "volume": 141,
-      "oi": 533,
-      "change": -591,
-      "prev_oi": 1124
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 67875,
-      "volume": 1,
-      "oi": 0,
+      "strike": 65750,
+      "volume": 0,
+      "oi": 697,
       "change": 0,
-      "prev_oi": 0
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
-      "strike": 65625,
-      "volume": 4,
-      "oi": 29,
-      "change": 0,
-      "prev_oi": 29
+      "prev_oi": 697
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 68000,
-      "volume": 20,
-      "oi": 598,
-      "change": 1,
-      "prev_oi": 597
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
-      "strike": 65750,
-      "volume": 102,
-      "oi": 697,
-      "change": -1,
-      "prev_oi": 698
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 68125,
-      "volume": 5,
-      "oi": 14,
-      "change": -5,
-      "prev_oi": 19
+      "volume": 123,
+      "oi": 654,
+      "change": 56,
+      "prev_oi": 598
     },
     {
       "type": "PUT",
@@ -4120,8 +4117,26 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
+      "strike": 68125,
+      "volume": 13,
+      "oi": 6,
+      "change": -8,
+      "prev_oi": 14
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
+      "strike": 66000,
+      "volume": 63,
+      "oi": 2376,
+      "change": -1,
+      "prev_oi": 2377
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
       "strike": 68250,
-      "volume": 1,
+      "volume": 0,
       "oi": 2,
       "change": 0,
       "prev_oi": 2
@@ -4129,101 +4144,65 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 66000,
-      "volume": 47,
-      "oi": 2377,
-      "change": -57,
-      "prev_oi": 2434
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 68375,
-      "volume": 4,
-      "oi": 0,
-      "change": -1,
-      "prev_oi": 1
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
       "strike": 66125,
-      "volume": 2,
+      "volume": 0,
       "oi": 6,
-      "change": -2,
-      "prev_oi": 8
+      "change": 0,
+      "prev_oi": 6
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 68500,
-      "volume": 7,
-      "oi": 1116,
-      "change": 0,
+      "volume": 9,
+      "oi": 1118,
+      "change": 2,
       "prev_oi": 1116
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 66250,
-      "volume": 10,
+      "volume": 0,
       "oi": 65,
-      "change": 4,
-      "prev_oi": 61
+      "change": 0,
+      "prev_oi": 65
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 68750,
-      "volume": 5,
+      "volume": 0,
       "oi": 103,
-      "change": 1,
-      "prev_oi": 102
+      "change": 0,
+      "prev_oi": 103
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 66375,
-      "volume": 0,
-      "oi": 5,
-      "change": -2,
-      "prev_oi": 7
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-10",
-      "strike": 68875,
       "volume": 1,
-      "oi": 0,
+      "oi": 5,
       "change": 0,
-      "prev_oi": 0
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-09",
-      "strike": 66500,
-      "volume": 17,
-      "oi": 2015,
-      "change": -10,
-      "prev_oi": 2025
+      "prev_oi": 5
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 69000,
-      "volume": 129,
-      "oi": 2863,
+      "volume": 39,
+      "oi": 2869,
       "change": 6,
-      "prev_oi": 2857
+      "prev_oi": 2863
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 66625,
-      "volume": 1,
-      "oi": 24,
-      "change": 0,
-      "prev_oi": 24
+      "strike": 66500,
+      "volume": 2,
+      "oi": 2013,
+      "change": -2,
+      "prev_oi": 2015
     },
     {
       "type": "CALL",
@@ -4237,35 +4216,35 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 66750,
-      "volume": 1,
-      "oi": 151,
-      "change": -1,
-      "prev_oi": 152
+      "strike": 66625,
+      "volume": 0,
+      "oi": 24,
+      "change": 0,
+      "prev_oi": 24
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 69500,
-      "volume": 178,
-      "oi": 177,
-      "change": 171,
-      "prev_oi": 6
+      "volume": 120,
+      "oi": 275,
+      "change": 98,
+      "prev_oi": 177
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 67000,
-      "volume": 7,
-      "oi": 2366,
-      "change": -1,
-      "prev_oi": 2367
+      "strike": 66750,
+      "volume": 0,
+      "oi": 151,
+      "change": 0,
+      "prev_oi": 151
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 69750,
-      "volume": 1,
+      "volume": 0,
       "oi": 2,
       "change": 0,
       "prev_oi": 2
@@ -4273,11 +4252,11 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 67125,
-      "volume": 0,
-      "oi": 2,
-      "change": 0,
-      "prev_oi": 2
+      "strike": 67000,
+      "volume": 38,
+      "oi": 2362,
+      "change": -4,
+      "prev_oi": 2366
     },
     {
       "type": "CALL",
@@ -4291,29 +4270,29 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 67250,
+      "strike": 67125,
       "volume": 0,
-      "oi": 15,
+      "oi": 2,
       "change": 0,
-      "prev_oi": 15
+      "prev_oi": 2
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 70000,
-      "volume": 236,
-      "oi": 1210,
-      "change": 166,
-      "prev_oi": 1044
+      "volume": 170,
+      "oi": 1269,
+      "change": 59,
+      "prev_oi": 1210
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
-      "strike": 67500,
-      "volume": 2,
-      "oi": 553,
+      "strike": 67250,
+      "volume": 0,
+      "oi": 15,
       "change": 0,
-      "prev_oi": 553
+      "prev_oi": 15
     },
     {
       "type": "CALL",
@@ -4327,6 +4306,24 @@
     {
       "type": "PUT",
       "expiry": "2026-09",
+      "strike": 67500,
+      "volume": 232,
+      "oi": 553,
+      "change": 0,
+      "prev_oi": 553
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-10",
+      "strike": 70375,
+      "volume": 0,
+      "oi": 117,
+      "change": 0,
+      "prev_oi": 117
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-09",
       "strike": 67625,
       "volume": 0,
       "oi": 1,
@@ -4336,11 +4333,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 70375,
-      "volume": 2,
-      "oi": 117,
-      "change": 2,
-      "prev_oi": 115
+      "strike": 70500,
+      "volume": 6,
+      "oi": 103,
+      "change": 1,
+      "prev_oi": 102
     },
     {
       "type": "PUT",
@@ -4354,11 +4351,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 70500,
-      "volume": 2,
-      "oi": 102,
-      "change": 1,
-      "prev_oi": 101
+      "strike": 70750,
+      "volume": 0,
+      "oi": 3,
+      "change": 0,
+      "prev_oi": 3
     },
     {
       "type": "PUT",
@@ -4372,11 +4369,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 70750,
-      "volume": 2,
-      "oi": 3,
-      "change": 1,
-      "prev_oi": 2
+      "strike": 71000,
+      "volume": 117,
+      "oi": 152,
+      "change": 15,
+      "prev_oi": 137
     },
     {
       "type": "PUT",
@@ -4390,11 +4387,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 71000,
-      "volume": 29,
-      "oi": 137,
-      "change": 3,
-      "prev_oi": 134
+      "strike": 71250,
+      "volume": 4,
+      "oi": 104,
+      "change": 1,
+      "prev_oi": 103
     },
     {
       "type": "PUT",
@@ -4408,29 +4405,29 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 71250,
-      "volume": 0,
-      "oi": 103,
-      "change": 0,
-      "prev_oi": 103
+      "strike": 71500,
+      "volume": 2,
+      "oi": 257,
+      "change": 1,
+      "prev_oi": 256
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 68500,
       "volume": 1,
-      "oi": 171,
-      "change": 0,
+      "oi": 170,
+      "change": -1,
       "prev_oi": 171
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 71500,
-      "volume": 2,
-      "oi": 256,
-      "change": 0,
-      "prev_oi": 256
+      "strike": 72000,
+      "volume": 394,
+      "oi": 2003,
+      "change": 196,
+      "prev_oi": 1807
     },
     {
       "type": "PUT",
@@ -4444,29 +4441,29 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 72000,
-      "volume": 87,
-      "oi": 1807,
-      "change": 27,
-      "prev_oi": 1780
+      "strike": 72250,
+      "volume": 1,
+      "oi": 86,
+      "change": 0,
+      "prev_oi": 86
     },
     {
       "type": "PUT",
       "expiry": "2026-09",
       "strike": 69000,
-      "volume": 2,
-      "oi": 1121,
-      "change": 0,
+      "volume": 3,
+      "oi": 1120,
+      "change": -1,
       "prev_oi": 1121
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 72250,
-      "volume": 0,
-      "oi": 86,
-      "change": 0,
-      "prev_oi": 86
+      "strike": 72500,
+      "volume": 11,
+      "oi": 176,
+      "change": 1,
+      "prev_oi": 175
     },
     {
       "type": "PUT",
@@ -4480,11 +4477,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 72500,
-      "volume": 2,
-      "oi": 175,
+      "strike": 72750,
+      "volume": 4,
+      "oi": 10,
       "change": 0,
-      "prev_oi": 175
+      "prev_oi": 10
     },
     {
       "type": "PUT",
@@ -4498,11 +4495,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 72750,
-      "volume": 0,
-      "oi": 10,
-      "change": 0,
-      "prev_oi": 10
+      "strike": 73000,
+      "volume": 100,
+      "oi": 1547,
+      "change": 58,
+      "prev_oi": 1489
     },
     {
       "type": "PUT",
@@ -4516,11 +4513,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 73000,
-      "volume": 142,
-      "oi": 1489,
-      "change": 69,
-      "prev_oi": 1420
+      "strike": 73250,
+      "volume": 0,
+      "oi": 2,
+      "change": 0,
+      "prev_oi": 2
     },
     {
       "type": "PUT",
@@ -4534,11 +4531,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 73250,
-      "volume": 3,
-      "oi": 2,
-      "change": 0,
-      "prev_oi": 2
+      "strike": 73500,
+      "volume": 5,
+      "oi": 26,
+      "change": 2,
+      "prev_oi": 24
     },
     {
       "type": "PUT",
@@ -4552,11 +4549,11 @@
     {
       "type": "CALL",
       "expiry": "2026-10",
-      "strike": 73500,
-      "volume": 6,
-      "oi": 24,
-      "change": 0,
-      "prev_oi": 24
+      "strike": 73750,
+      "volume": 1,
+      "oi": 1,
+      "change": 1,
+      "prev_oi": 0
     },
     {
       "type": "PUT",
@@ -4571,10 +4568,10 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 74000,
-      "volume": 108,
-      "oi": 583,
-      "change": 56,
-      "prev_oi": 527
+      "volume": 163,
+      "oi": 622,
+      "change": 39,
+      "prev_oi": 583
     },
     {
       "type": "PUT",
@@ -4589,7 +4586,7 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 74250,
-      "volume": 2,
+      "volume": 0,
       "oi": 8,
       "change": 0,
       "prev_oi": 8
@@ -4607,7 +4604,7 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 74500,
-      "volume": 6,
+      "volume": 2,
       "oi": 66,
       "change": 0,
       "prev_oi": 66
@@ -4643,10 +4640,10 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 75000,
-      "volume": 211,
-      "oi": 1692,
-      "change": 177,
-      "prev_oi": 1515
+      "volume": 158,
+      "oi": 1472,
+      "change": -220,
+      "prev_oi": 1692
     },
     {
       "type": "PUT",
@@ -4661,82 +4658,82 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 75250,
-      "volume": 0,
-      "oi": 3,
-      "change": 0,
+      "volume": 1,
+      "oi": 2,
+      "change": -1,
       "prev_oi": 3
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 75500,
-      "volume": 3,
+      "volume": 0,
       "oi": 7,
-      "change": 1,
-      "prev_oi": 6
+      "change": 0,
+      "prev_oi": 7
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 75750,
-      "volume": 0,
-      "oi": 1,
-      "change": 0,
+      "volume": 5,
+      "oi": 5,
+      "change": 4,
       "prev_oi": 1
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 20000,
-      "volume": 3,
-      "oi": 509,
-      "change": 2,
-      "prev_oi": 507
+      "volume": 54,
+      "oi": 533,
+      "change": 24,
+      "prev_oi": 509
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 76000,
-      "volume": 8,
-      "oi": 823,
-      "change": 2,
-      "prev_oi": 821
+      "volume": 253,
+      "oi": 1049,
+      "change": 226,
+      "prev_oi": 823
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 22500,
-      "volume": 14,
+      "volume": 15,
       "oi": 24,
-      "change": 1,
-      "prev_oi": 23
+      "change": 0,
+      "prev_oi": 24
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 76250,
-      "volume": 4,
-      "oi": 6,
-      "change": 4,
-      "prev_oi": 2
+      "volume": 2,
+      "oi": 8,
+      "change": 2,
+      "prev_oi": 6
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 25000,
-      "volume": 28,
-      "oi": 1461,
-      "change": -3,
-      "prev_oi": 1464
+      "volume": 17,
+      "oi": 1467,
+      "change": 6,
+      "prev_oi": 1461
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 76500,
-      "volume": 4,
-      "oi": 10,
-      "change": 4,
-      "prev_oi": 6
+      "volume": 3,
+      "oi": 12,
+      "change": 2,
+      "prev_oi": 10
     },
     {
       "type": "PUT",
@@ -4751,46 +4748,46 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 77000,
-      "volume": 84,
-      "oi": 1184,
-      "change": 39,
-      "prev_oi": 1145
+      "volume": 11,
+      "oi": 1186,
+      "change": 2,
+      "prev_oi": 1184
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 27000,
-      "volume": 19,
-      "oi": 10,
-      "change": 0,
+      "volume": 15,
+      "oi": 25,
+      "change": 15,
       "prev_oi": 10
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 77500,
-      "volume": 2,
-      "oi": 111,
+      "volume": 1,
+      "oi": 110,
       "change": -1,
-      "prev_oi": 112
+      "prev_oi": 111
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 28000,
-      "volume": 0,
-      "oi": 14,
-      "change": 0,
+      "volume": 4,
+      "oi": 15,
+      "change": 1,
       "prev_oi": 14
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 78000,
-      "volume": 51,
-      "oi": 622,
-      "change": -15,
-      "prev_oi": 637
+      "volume": 133,
+      "oi": 665,
+      "change": 43,
+      "prev_oi": 622
     },
     {
       "type": "PUT",
@@ -4805,37 +4802,37 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 78500,
-      "volume": 0,
-      "oi": 7,
-      "change": 0,
+      "volume": 1,
+      "oi": 8,
+      "change": 1,
       "prev_oi": 7
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 30000,
-      "volume": 1296,
-      "oi": 3794,
-      "change": -1179,
-      "prev_oi": 4973
+      "volume": 480,
+      "oi": 3433,
+      "change": -361,
+      "prev_oi": 3794
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 79000,
-      "volume": 10,
-      "oi": 46,
-      "change": 0,
+      "volume": 33,
+      "oi": 77,
+      "change": 31,
       "prev_oi": 46
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 31000,
-      "volume": 4,
+      "volume": 0,
       "oi": 4,
-      "change": -4,
-      "prev_oi": 8
+      "change": 0,
+      "prev_oi": 4
     },
     {
       "type": "CALL",
@@ -4859,55 +4856,55 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 80000,
-      "volume": 57,
-      "oi": 1848,
-      "change": 30,
-      "prev_oi": 1818
+      "volume": 33,
+      "oi": 1844,
+      "change": -4,
+      "prev_oi": 1848
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 33000,
-      "volume": 31,
-      "oi": 551,
-      "change": 5,
-      "prev_oi": 546
+      "volume": 1107,
+      "oi": 1655,
+      "change": 1104,
+      "prev_oi": 551
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 80500,
-      "volume": 0,
-      "oi": 2,
-      "change": 0,
+      "volume": 14,
+      "oi": 1,
+      "change": -1,
       "prev_oi": 2
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 34000,
-      "volume": 0,
-      "oi": 3,
-      "change": 0,
+      "volume": 1,
+      "oi": 4,
+      "change": 1,
       "prev_oi": 3
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 81000,
-      "volume": 15,
-      "oi": 480,
-      "change": 2,
-      "prev_oi": 478
+      "volume": 22,
+      "oi": 496,
+      "change": 16,
+      "prev_oi": 480
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 35000,
-      "volume": 45,
-      "oi": 1926,
-      "change": 31,
-      "prev_oi": 1895
+      "volume": 132,
+      "oi": 1980,
+      "change": 54,
+      "prev_oi": 1926
     },
     {
       "type": "CALL",
@@ -4922,7 +4919,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 36000,
-      "volume": 1,
+      "volume": 0,
       "oi": 28,
       "change": 0,
       "prev_oi": 28
@@ -4931,7 +4928,7 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 82000,
-      "volume": 0,
+      "volume": 1,
       "oi": 64,
       "change": 0,
       "prev_oi": 64
@@ -4940,45 +4937,45 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 37000,
-      "volume": 4,
-      "oi": 169,
-      "change": -2,
-      "prev_oi": 171
+      "volume": 5,
+      "oi": 170,
+      "change": 1,
+      "prev_oi": 169
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 82500,
-      "volume": 0,
-      "oi": 3,
-      "change": 0,
+      "volume": 2,
+      "oi": 1,
+      "change": -2,
       "prev_oi": 3
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 38000,
-      "volume": 0,
-      "oi": 4,
-      "change": 0,
+      "volume": 38,
+      "oi": 13,
+      "change": 9,
       "prev_oi": 4
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 83000,
-      "volume": 7,
-      "oi": 17,
+      "volume": 6,
+      "oi": 18,
       "change": 1,
-      "prev_oi": 16
+      "prev_oi": 17
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 39000,
       "volume": 4,
-      "oi": 102,
-      "change": 0,
+      "oi": 104,
+      "change": 2,
       "prev_oi": 102
     },
     {
@@ -4994,43 +4991,43 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 40000,
-      "volume": 84,
+      "volume": 834,
       "oi": 4162,
-      "change": 29,
-      "prev_oi": 4133
+      "change": 0,
+      "prev_oi": 4162
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 84000,
-      "volume": 2,
+      "volume": 0,
       "oi": 6,
-      "change": -1,
-      "prev_oi": 7
+      "change": 0,
+      "prev_oi": 6
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 41000,
-      "volume": 0,
-      "oi": 108,
-      "change": 0,
+      "volume": 6,
+      "oi": 110,
+      "change": 2,
       "prev_oi": 108
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 85000,
-      "volume": 9,
-      "oi": 156,
-      "change": 5,
-      "prev_oi": 151
+      "volume": 8,
+      "oi": 157,
+      "change": 1,
+      "prev_oi": 156
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 42000,
-      "volume": 4,
+      "volume": 2,
       "oi": 139,
       "change": 0,
       "prev_oi": 139
@@ -5039,16 +5036,16 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 87500,
-      "volume": 5,
+      "volume": 1,
       "oi": 113,
-      "change": -5,
-      "prev_oi": 118
+      "change": 0,
+      "prev_oi": 113
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 42750,
-      "volume": 2,
+      "volume": 0,
       "oi": 31,
       "change": 0,
       "prev_oi": 31
@@ -5057,28 +5054,28 @@
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 90000,
-      "volume": 0,
-      "oi": 101,
-      "change": 0,
+      "volume": 12,
+      "oi": 113,
+      "change": 12,
       "prev_oi": 101
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 43000,
-      "volume": 3,
-      "oi": 147,
-      "change": 0,
+      "volume": 6,
+      "oi": 148,
+      "change": 1,
       "prev_oi": 147
     },
     {
       "type": "CALL",
       "expiry": "2026-10",
       "strike": 92500,
-      "volume": 14,
+      "volume": 0,
       "oi": 15,
-      "change": 14,
-      "prev_oi": 1
+      "change": 0,
+      "prev_oi": 15
     },
     {
       "type": "PUT",
@@ -5138,9 +5135,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 44000,
-      "volume": 0,
-      "oi": 231,
-      "change": 0,
+      "volume": 20,
+      "oi": 233,
+      "change": 2,
       "prev_oi": 231
     },
     {
@@ -5174,7 +5171,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 44750,
-      "volume": 0,
+      "volume": 6,
       "oi": 37,
       "change": 0,
       "prev_oi": 37
@@ -5192,10 +5189,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 45000,
-      "volume": 534,
-      "oi": 579,
-      "change": -178,
-      "prev_oi": 757
+      "volume": 934,
+      "oi": 1193,
+      "change": 614,
+      "prev_oi": 579
     },
     {
       "type": "CALL",
@@ -5264,10 +5261,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 46000,
-      "volume": 1,
-      "oi": 354,
-      "change": -1,
-      "prev_oi": 355
+      "volume": 2,
+      "oi": 356,
+      "change": 2,
+      "prev_oi": 354
     },
     {
       "type": "CALL",
@@ -5300,7 +5297,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 46500,
-      "volume": 0,
+      "volume": 4,
       "oi": 157,
       "change": 0,
       "prev_oi": 157
@@ -5309,9 +5306,9 @@
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 65000,
-      "volume": 0,
-      "oi": 13,
-      "change": 0,
+      "volume": 144,
+      "oi": 157,
+      "change": 144,
       "prev_oi": 13
     },
     {
@@ -5336,9 +5333,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 47000,
-      "volume": 4,
-      "oi": 278,
-      "change": 0,
+      "volume": 10,
+      "oi": 284,
+      "change": 6,
       "prev_oi": 278
     },
     {
@@ -5372,7 +5369,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 47500,
-      "volume": 0,
+      "volume": 7,
       "oi": 30,
       "change": 0,
       "prev_oi": 30
@@ -5381,9 +5378,9 @@
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 66000,
-      "volume": 0,
-      "oi": 446,
-      "change": 0,
+      "volume": 40,
+      "oi": 436,
+      "change": -10,
       "prev_oi": 446
     },
     {
@@ -5399,25 +5396,25 @@
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 67000,
-      "volume": 139,
+      "volume": 0,
       "oi": 1135,
-      "change": 5,
-      "prev_oi": 1130
+      "change": 0,
+      "prev_oi": 1135
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 48000,
-      "volume": 61,
-      "oi": 741,
-      "change": 54,
-      "prev_oi": 687
+      "volume": 27,
+      "oi": 745,
+      "change": 4,
+      "prev_oi": 741
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 67500,
-      "volume": 1,
+      "volume": 0,
       "oi": 301,
       "change": 0,
       "prev_oi": 301
@@ -5444,7 +5441,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 48500,
-      "volume": 25,
+      "volume": 1,
       "oi": 199,
       "change": 0,
       "prev_oi": 199
@@ -5480,10 +5477,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 49000,
-      "volume": 204,
+      "volume": 22,
       "oi": 244,
-      "change": -1,
-      "prev_oi": 245
+      "change": 0,
+      "prev_oi": 244
     },
     {
       "type": "CALL",
@@ -5498,9 +5495,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 49250,
-      "volume": 0,
-      "oi": 72,
-      "change": 0,
+      "volume": 4,
+      "oi": 75,
+      "change": 3,
       "prev_oi": 72
     },
     {
@@ -5516,18 +5513,18 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 49500,
-      "volume": 11,
+      "volume": 0,
       "oi": 202,
-      "change": -3,
-      "prev_oi": 205
+      "change": 0,
+      "prev_oi": 202
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 70000,
-      "volume": 0,
-      "oi": 1013,
-      "change": 0,
+      "volume": 22,
+      "oi": 994,
+      "change": -19,
       "prev_oi": 1013
     },
     {
@@ -5552,10 +5549,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 50000,
-      "volume": 208,
-      "oi": 1011,
-      "change": 27,
-      "prev_oi": 984
+      "volume": 171,
+      "oi": 1046,
+      "change": 35,
+      "prev_oi": 1011
     },
     {
       "type": "CALL",
@@ -5570,10 +5567,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 50250,
-      "volume": 3,
+      "volume": 0,
       "oi": 65,
-      "change": 3,
-      "prev_oi": 62
+      "change": 0,
+      "prev_oi": 65
     },
     {
       "type": "CALL",
@@ -5588,9 +5585,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 50500,
-      "volume": 0,
-      "oi": 405,
-      "change": 0,
+      "volume": 5,
+      "oi": 406,
+      "change": 1,
       "prev_oi": 405
     },
     {
@@ -5614,6 +5611,24 @@
     {
       "type": "CALL",
       "expiry": "2026-11",
+      "strike": 72250,
+      "volume": 1,
+      "oi": 1,
+      "change": 1,
+      "prev_oi": 0
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-10",
+      "strike": 51000,
+      "volume": 46,
+      "oi": 398,
+      "change": 0,
+      "prev_oi": 398
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-11",
       "strike": 72500,
       "volume": 0,
       "oi": 602,
@@ -5623,11 +5638,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 51000,
-      "volume": 5,
-      "oi": 398,
+      "strike": 51250,
+      "volume": 0,
+      "oi": 83,
       "change": 0,
-      "prev_oi": 398
+      "prev_oi": 83
     },
     {
       "type": "CALL",
@@ -5641,11 +5656,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 51250,
-      "volume": 7,
-      "oi": 83,
+      "strike": 51500,
+      "volume": 2,
+      "oi": 413,
       "change": 0,
-      "prev_oi": 83
+      "prev_oi": 413
     },
     {
       "type": "CALL",
@@ -5659,17 +5674,17 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 51500,
-      "volume": 39,
-      "oi": 413,
-      "change": 27,
-      "prev_oi": 386
+      "strike": 51750,
+      "volume": 1,
+      "oi": 73,
+      "change": 1,
+      "prev_oi": 72
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 74500,
-      "volume": 1,
+      "volume": 0,
       "oi": 116,
       "change": 0,
       "prev_oi": 116
@@ -5677,29 +5692,29 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 51750,
-      "volume": 0,
-      "oi": 72,
-      "change": 0,
-      "prev_oi": 72
+      "strike": 52000,
+      "volume": 139,
+      "oi": 1310,
+      "change": 14,
+      "prev_oi": 1296
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 75000,
-      "volume": 2,
+      "volume": 20,
       "oi": 842,
-      "change": 2,
-      "prev_oi": 840
+      "change": 0,
+      "prev_oi": 842
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 52000,
-      "volume": 115,
-      "oi": 1296,
-      "change": 104,
-      "prev_oi": 1192
+      "strike": 52250,
+      "volume": 6,
+      "oi": 45,
+      "change": 0,
+      "prev_oi": 45
     },
     {
       "type": "CALL",
@@ -5713,11 +5728,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 52250,
-      "volume": 0,
-      "oi": 45,
-      "change": 0,
-      "prev_oi": 45
+      "strike": 52500,
+      "volume": 19,
+      "oi": 260,
+      "change": 2,
+      "prev_oi": 258
     },
     {
       "type": "CALL",
@@ -5731,11 +5746,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 52500,
-      "volume": 38,
-      "oi": 258,
-      "change": 7,
-      "prev_oi": 251
+      "strike": 52750,
+      "volume": 1,
+      "oi": 68,
+      "change": 1,
+      "prev_oi": 67
     },
     {
       "type": "CALL",
@@ -5749,11 +5764,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 52750,
-      "volume": 9,
-      "oi": 67,
-      "change": 9,
-      "prev_oi": 58
+      "strike": 53000,
+      "volume": 155,
+      "oi": 1403,
+      "change": 121,
+      "prev_oi": 1282
     },
     {
       "type": "CALL",
@@ -5761,62 +5776,44 @@
       "strike": 77000,
       "volume": 1,
       "oi": 121,
-      "change": 1,
-      "prev_oi": 120
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
-      "strike": 53000,
-      "volume": 33,
-      "oi": 1282,
-      "change": 14,
-      "prev_oi": 1268
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-11",
-      "strike": 78000,
-      "volume": 1,
-      "oi": 106,
-      "change": 1,
-      "prev_oi": 105
+      "change": 0,
+      "prev_oi": 121
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 53250,
-      "volume": 7,
+      "volume": 0,
       "oi": 51,
-      "change": 7,
-      "prev_oi": 44
+      "change": 0,
+      "prev_oi": 51
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
-      "strike": 79000,
-      "volume": 4,
-      "oi": 2,
-      "change": -1,
-      "prev_oi": 3
+      "strike": 78000,
+      "volume": 9,
+      "oi": 107,
+      "change": 1,
+      "prev_oi": 106
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 53500,
-      "volume": 241,
-      "oi": 333,
-      "change": 222,
-      "prev_oi": 111
+      "volume": 10,
+      "oi": 339,
+      "change": 6,
+      "prev_oi": 333
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
-      "strike": 80000,
+      "strike": 79000,
       "volume": 0,
-      "oi": 92,
+      "oi": 2,
       "change": 0,
-      "prev_oi": 92
+      "prev_oi": 2
     },
     {
       "type": "PUT",
@@ -5830,8 +5827,26 @@
     {
       "type": "CALL",
       "expiry": "2026-11",
+      "strike": 80000,
+      "volume": 0,
+      "oi": 92,
+      "change": 0,
+      "prev_oi": 92
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-10",
+      "strike": 54000,
+      "volume": 88,
+      "oi": 743,
+      "change": 20,
+      "prev_oi": 723
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-11",
       "strike": 82500,
-      "volume": 3,
+      "volume": 0,
       "oi": 1,
       "change": 0,
       "prev_oi": 1
@@ -5839,65 +5854,65 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 54000,
-      "volume": 370,
-      "oi": 723,
-      "change": 154,
-      "prev_oi": 569
+      "strike": 54250,
+      "volume": 0,
+      "oi": 59,
+      "change": 0,
+      "prev_oi": 59
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
       "strike": 85000,
-      "volume": 3,
+      "volume": 1,
       "oi": 4,
-      "change": 3,
-      "prev_oi": 1
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
-      "strike": 54250,
-      "volume": 7,
-      "oi": 59,
-      "change": 7,
-      "prev_oi": 52
-    },
-    {
-      "type": "CALL",
-      "expiry": "2026-11",
-      "strike": 87500,
-      "volume": 2,
-      "oi": 4,
-      "change": 2,
-      "prev_oi": 2
+      "change": 0,
+      "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 54500,
-      "volume": 27,
-      "oi": 607,
-      "change": 26,
-      "prev_oi": 581
+      "volume": 970,
+      "oi": 1548,
+      "change": 941,
+      "prev_oi": 607
     },
     {
       "type": "CALL",
       "expiry": "2026-11",
-      "strike": 90000,
+      "strike": 87500,
       "volume": 0,
-      "oi": 8,
+      "oi": 4,
       "change": 0,
-      "prev_oi": 8
+      "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 54750,
-      "volume": 10,
+      "volume": 0,
       "oi": 19,
       "change": 0,
       "prev_oi": 19
+    },
+    {
+      "type": "CALL",
+      "expiry": "2026-11",
+      "strike": 90000,
+      "volume": 13,
+      "oi": 19,
+      "change": 11,
+      "prev_oi": 8
+    },
+    {
+      "type": "PUT",
+      "expiry": "2026-10",
+      "strike": 55000,
+      "volume": 897,
+      "oi": 2915,
+      "change": 366,
+      "prev_oi": 2549
     },
     {
       "type": "CALL",
@@ -5911,11 +5926,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 55000,
-      "volume": 555,
-      "oi": 2549,
-      "change": 488,
-      "prev_oi": 2061
+      "strike": 55250,
+      "volume": 0,
+      "oi": 47,
+      "change": 0,
+      "prev_oi": 47
     },
     {
       "type": "CALL",
@@ -5929,11 +5944,11 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 55250,
-      "volume": 1,
-      "oi": 47,
-      "change": 0,
-      "prev_oi": 47
+      "strike": 55500,
+      "volume": 43,
+      "oi": 252,
+      "change": -1,
+      "prev_oi": 253
     },
     {
       "type": "CALL",
@@ -5947,17 +5962,8 @@
     {
       "type": "PUT",
       "expiry": "2026-10",
-      "strike": 55500,
-      "volume": 80,
-      "oi": 253,
-      "change": 1,
-      "prev_oi": 252
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
       "strike": 55750,
-      "volume": 8,
+      "volume": 0,
       "oi": 40,
       "change": 0,
       "prev_oi": 40
@@ -5966,46 +5972,46 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 56000,
-      "volume": 363,
-      "oi": 440,
-      "change": -35,
-      "prev_oi": 475
+      "volume": 362,
+      "oi": 757,
+      "change": 317,
+      "prev_oi": 440
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 56250,
-      "volume": 32,
+      "volume": 0,
       "oi": 45,
-      "change": 10,
-      "prev_oi": 35
+      "change": 0,
+      "prev_oi": 45
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 56500,
-      "volume": 16,
+      "volume": 3,
       "oi": 404,
-      "change": -9,
-      "prev_oi": 413
+      "change": 0,
+      "prev_oi": 404
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 56750,
-      "volume": 14,
-      "oi": 85,
-      "change": 0,
+      "volume": 13,
+      "oi": 89,
+      "change": 4,
       "prev_oi": 85
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 57000,
-      "volume": 407,
-      "oi": 742,
-      "change": 161,
-      "prev_oi": 581
+      "volume": 28,
+      "oi": 746,
+      "change": 4,
+      "prev_oi": 742
     },
     {
       "type": "PUT",
@@ -6020,10 +6026,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 57500,
-      "volume": 8,
-      "oi": 300,
-      "change": -1,
-      "prev_oi": 301
+      "volume": 21,
+      "oi": 303,
+      "change": 3,
+      "prev_oi": 300
     },
     {
       "type": "PUT",
@@ -6038,19 +6044,19 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 58000,
-      "volume": 460,
-      "oi": 1800,
-      "change": 21,
-      "prev_oi": 1779
+      "volume": 388,
+      "oi": 2074,
+      "change": 274,
+      "prev_oi": 1800
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 58250,
-      "volume": 14,
+      "volume": 0,
       "oi": 114,
-      "change": 14,
-      "prev_oi": 100
+      "change": 0,
+      "prev_oi": 114
     },
     {
       "type": "PUT",
@@ -6065,19 +6071,19 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 58500,
-      "volume": 2,
+      "volume": 0,
       "oi": 161,
-      "change": 1,
-      "prev_oi": 160
+      "change": 0,
+      "prev_oi": 161
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 58625,
-      "volume": 3,
+      "volume": 0,
       "oi": 20,
-      "change": 1,
-      "prev_oi": 19
+      "change": 0,
+      "prev_oi": 20
     },
     {
       "type": "PUT",
@@ -6101,25 +6107,25 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 59000,
-      "volume": 157,
-      "oi": 344,
-      "change": 63,
-      "prev_oi": 281
+      "volume": 221,
+      "oi": 456,
+      "change": 112,
+      "prev_oi": 344
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 59125,
-      "volume": 2,
+      "volume": 0,
       "oi": 63,
-      "change": 2,
-      "prev_oi": 61
+      "change": 0,
+      "prev_oi": 63
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 59250,
-      "volume": 8,
+      "volume": 0,
       "oi": 141,
       "change": 0,
       "prev_oi": 141
@@ -6137,10 +6143,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 59500,
-      "volume": 8,
-      "oi": 48,
-      "change": 1,
-      "prev_oi": 47
+      "volume": 37,
+      "oi": 51,
+      "change": 3,
+      "prev_oi": 48
     },
     {
       "type": "PUT",
@@ -6155,7 +6161,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 59750,
-      "volume": 13,
+      "volume": 2,
       "oi": 14,
       "change": 0,
       "prev_oi": 14
@@ -6173,46 +6179,46 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60000,
-      "volume": 257,
-      "oi": 3068,
-      "change": 85,
-      "prev_oi": 2983
+      "volume": 78,
+      "oi": 3091,
+      "change": 23,
+      "prev_oi": 3068
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60125,
-      "volume": 1,
+      "volume": 0,
       "oi": 5,
-      "change": 1,
-      "prev_oi": 4
+      "change": 0,
+      "prev_oi": 5
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60250,
-      "volume": 2,
+      "volume": 0,
       "oi": 21,
-      "change": 2,
-      "prev_oi": 19
+      "change": 0,
+      "prev_oi": 21
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60375,
-      "volume": 24,
-      "oi": 324,
-      "change": 24,
-      "prev_oi": 300
+      "volume": 554,
+      "oi": 878,
+      "change": 554,
+      "prev_oi": 324
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60500,
-      "volume": 6,
-      "oi": 136,
-      "change": 2,
-      "prev_oi": 134
+      "volume": 85,
+      "oi": 221,
+      "change": 85,
+      "prev_oi": 136
     },
     {
       "type": "PUT",
@@ -6227,7 +6233,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60750,
-      "volume": 4,
+      "volume": 0,
       "oi": 51,
       "change": 0,
       "prev_oi": 51
@@ -6236,19 +6242,19 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 60875,
-      "volume": 0,
-      "oi": 7,
-      "change": 0,
+      "volume": 4,
+      "oi": 4,
+      "change": -3,
       "prev_oi": 7
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61000,
-      "volume": 23,
-      "oi": 883,
+      "volume": 83,
+      "oi": 888,
       "change": 5,
-      "prev_oi": 878
+      "prev_oi": 883
     },
     {
       "type": "PUT",
@@ -6263,43 +6269,43 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61250,
-      "volume": 0,
-      "oi": 99,
-      "change": 0,
+      "volume": 11,
+      "oi": 106,
+      "change": 7,
       "prev_oi": 99
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61375,
-      "volume": 2,
-      "oi": 103,
-      "change": 2,
-      "prev_oi": 101
+      "volume": 6,
+      "oi": 109,
+      "change": 6,
+      "prev_oi": 103
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61500,
-      "volume": 1,
-      "oi": 4,
-      "change": 0,
+      "volume": 8,
+      "oi": 5,
+      "change": 1,
       "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61625,
-      "volume": 2,
-      "oi": 98,
-      "change": 2,
-      "prev_oi": 96
+      "volume": 6,
+      "oi": 104,
+      "change": 6,
+      "prev_oi": 98
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 61750,
-      "volume": 2,
+      "volume": 5,
       "oi": 63,
       "change": 0,
       "prev_oi": 63
@@ -6317,19 +6323,19 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 62000,
-      "volume": 385,
-      "oi": 1115,
-      "change": 128,
-      "prev_oi": 987
+      "volume": 90,
+      "oi": 1145,
+      "change": 30,
+      "prev_oi": 1115
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 62250,
       "volume": 4,
-      "oi": 64,
-      "change": 1,
-      "prev_oi": 63
+      "oi": 63,
+      "change": -1,
+      "prev_oi": 64
     },
     {
       "type": "PUT",
@@ -6344,25 +6350,25 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 62500,
-      "volume": 33,
-      "oi": 651,
-      "change": 0,
+      "volume": 21,
+      "oi": 652,
+      "change": 1,
       "prev_oi": 651
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 62625,
-      "volume": 123,
-      "oi": 123,
-      "change": 123,
-      "prev_oi": 0
+      "volume": 7,
+      "oi": 130,
+      "change": 7,
+      "prev_oi": 123
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 62750,
-      "volume": 2,
+      "volume": 0,
       "oi": 40,
       "change": 0,
       "prev_oi": 40
@@ -6380,16 +6386,16 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 63000,
-      "volume": 143,
-      "oi": 538,
-      "change": 33,
-      "prev_oi": 505
+      "volume": 138,
+      "oi": 626,
+      "change": 88,
+      "prev_oi": 538
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 63250,
-      "volume": 2,
+      "volume": 0,
       "oi": 110,
       "change": 0,
       "prev_oi": 110
@@ -6398,16 +6404,16 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 63375,
-      "volume": 1,
-      "oi": 5,
-      "change": 0,
+      "volume": 232,
+      "oi": 237,
+      "change": 232,
       "prev_oi": 5
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 63500,
-      "volume": 1,
+      "volume": 0,
       "oi": 32,
       "change": 0,
       "prev_oi": 32
@@ -6416,9 +6422,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 63625,
-      "volume": 0,
-      "oi": 6,
-      "change": 0,
+      "volume": 6,
+      "oi": 0,
+      "change": -6,
       "prev_oi": 6
     },
     {
@@ -6443,61 +6449,52 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 64000,
-      "volume": 335,
-      "oi": 1064,
-      "change": -9,
-      "prev_oi": 1073
+      "volume": 777,
+      "oi": 1588,
+      "change": 524,
+      "prev_oi": 1064
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 64250,
-      "volume": 1,
-      "oi": 7,
-      "change": 0,
+      "volume": 107,
+      "oi": 104,
+      "change": 97,
       "prev_oi": 7
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 64500,
-      "volume": 7,
-      "oi": 441,
-      "change": 7,
-      "prev_oi": 434
+      "volume": 36,
+      "oi": 460,
+      "change": 19,
+      "prev_oi": 441
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 64750,
-      "volume": 6,
+      "volume": 0,
       "oi": 4,
-      "change": 1,
-      "prev_oi": 3
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
-      "strike": 64875,
-      "volume": 3,
-      "oi": 0,
       "change": 0,
-      "prev_oi": 0
+      "prev_oi": 4
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 65000,
-      "volume": 112,
+      "volume": 22,
       "oi": 1747,
-      "change": -79,
-      "prev_oi": 1826
+      "change": 0,
+      "prev_oi": 1747
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 65250,
-      "volume": 1,
+      "volume": 0,
       "oi": 9,
       "change": 0,
       "prev_oi": 9
@@ -6515,10 +6512,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 65500,
-      "volume": 123,
+      "volume": 1,
       "oi": 141,
-      "change": -68,
-      "prev_oi": 209
+      "change": 0,
+      "prev_oi": 141
     },
     {
       "type": "PUT",
@@ -6533,43 +6530,25 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 66000,
-      "volume": 136,
-      "oi": 1037,
-      "change": 50,
-      "prev_oi": 987
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
-      "strike": 66250,
-      "volume": 1,
-      "oi": 0,
-      "change": 0,
-      "prev_oi": 0
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-10",
-      "strike": 66375,
-      "volume": 1,
-      "oi": 0,
-      "change": 0,
-      "prev_oi": 0
+      "volume": 94,
+      "oi": 1044,
+      "change": 7,
+      "prev_oi": 1037
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 66500,
-      "volume": 7,
+      "volume": 0,
       "oi": 93,
-      "change": -3,
-      "prev_oi": 96
+      "change": 0,
+      "prev_oi": 93
     },
     {
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 67000,
-      "volume": 0,
+      "volume": 1,
       "oi": 511,
       "change": 0,
       "prev_oi": 511
@@ -6578,10 +6557,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 67500,
-      "volume": 4,
+      "volume": 0,
       "oi": 38,
-      "change": -3,
-      "prev_oi": 41
+      "change": 0,
+      "prev_oi": 38
     },
     {
       "type": "PUT",
@@ -6605,7 +6584,7 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 68000,
-      "volume": 2,
+      "volume": 0,
       "oi": 541,
       "change": 0,
       "prev_oi": 541
@@ -6623,10 +6602,10 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 69000,
-      "volume": 1,
+      "volume": 0,
       "oi": 210,
-      "change": -1,
-      "prev_oi": 211
+      "change": 0,
+      "prev_oi": 210
     },
     {
       "type": "PUT",
@@ -6650,9 +6629,9 @@
       "type": "PUT",
       "expiry": "2026-10",
       "strike": 73000,
-      "volume": 0,
-      "oi": 10,
-      "change": 0,
+      "volume": 4,
+      "oi": 14,
+      "change": 4,
       "prev_oi": 10
     },
     {
@@ -6677,19 +6656,19 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 20000,
-      "volume": 10,
+      "volume": 6,
       "oi": 65,
-      "change": 10,
-      "prev_oi": 55
+      "change": 0,
+      "prev_oi": 65
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 25000,
-      "volume": 14,
+      "volume": 98,
       "oi": 99,
-      "change": 14,
-      "prev_oi": 85
+      "change": 0,
+      "prev_oi": 99
     },
     {
       "type": "PUT",
@@ -6722,18 +6701,18 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 30000,
-      "volume": 1220,
-      "oi": 1209,
-      "change": 1192,
-      "prev_oi": 17
+      "volume": 465,
+      "oi": 1613,
+      "change": 404,
+      "prev_oi": 1209
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 35000,
-      "volume": 0,
-      "oi": 21,
-      "change": 0,
+      "volume": 639,
+      "oi": 635,
+      "change": 614,
       "prev_oi": 21
     },
     {
@@ -6767,36 +6746,36 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 40000,
-      "volume": 0,
-      "oi": 104,
-      "change": 0,
+      "volume": 2,
+      "oi": 106,
+      "change": 2,
       "prev_oi": 104
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 41000,
-      "volume": 0,
-      "oi": 105,
-      "change": 0,
+      "volume": 2,
+      "oi": 106,
+      "change": 1,
       "prev_oi": 105
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 42000,
-      "volume": 100,
+      "volume": 0,
       "oi": 352,
-      "change": 100,
-      "prev_oi": 252
+      "change": 0,
+      "prev_oi": 352
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 43000,
-      "volume": 0,
-      "oi": 256,
-      "change": 0,
+      "volume": 3,
+      "oi": 259,
+      "change": 3,
       "prev_oi": 256
     },
     {
@@ -6821,19 +6800,19 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 44750,
-      "volume": 5,
+      "volume": 0,
       "oi": 6,
-      "change": 5,
-      "prev_oi": 1
+      "change": 0,
+      "prev_oi": 6
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 45000,
-      "volume": 401,
-      "oi": 505,
-      "change": 302,
-      "prev_oi": 203
+      "volume": 307,
+      "oi": 812,
+      "change": 307,
+      "prev_oi": 505
     },
     {
       "type": "PUT",
@@ -6902,10 +6881,10 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 47000,
-      "volume": 4,
+      "volume": 0,
       "oi": 105,
-      "change": 3,
-      "prev_oi": 102
+      "change": 0,
+      "prev_oi": 105
     },
     {
       "type": "PUT",
@@ -6929,16 +6908,16 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 47750,
-      "volume": 5,
+      "volume": 0,
       "oi": 78,
-      "change": 5,
-      "prev_oi": 73
+      "change": 0,
+      "prev_oi": 78
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 48000,
-      "volume": 0,
+      "volume": 1,
       "oi": 163,
       "change": 0,
       "prev_oi": 163
@@ -6947,7 +6926,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 48250,
-      "volume": 0,
+      "volume": 2,
       "oi": 3,
       "change": 0,
       "prev_oi": 3
@@ -6965,19 +6944,19 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 48750,
-      "volume": 0,
-      "oi": 113,
-      "change": 0,
+      "volume": 25,
+      "oi": 127,
+      "change": 14,
       "prev_oi": 113
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 49000,
-      "volume": 13,
+      "volume": 0,
       "oi": 214,
-      "change": 13,
-      "prev_oi": 201
+      "change": 0,
+      "prev_oi": 214
     },
     {
       "type": "PUT",
@@ -7010,9 +6989,9 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 50000,
-      "volume": 5,
-      "oi": 349,
-      "change": 0,
+      "volume": 118,
+      "oi": 451,
+      "change": 102,
       "prev_oi": 349
     },
     {
@@ -7028,7 +7007,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 50500,
-      "volume": 0,
+      "volume": 3,
       "oi": 144,
       "change": 0,
       "prev_oi": 144
@@ -7064,10 +7043,10 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 51500,
-      "volume": 37,
+      "volume": 0,
       "oi": 356,
-      "change": 37,
-      "prev_oi": 319
+      "change": 0,
+      "prev_oi": 356
     },
     {
       "type": "PUT",
@@ -7082,9 +7061,9 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 52000,
-      "volume": 0,
-      "oi": 1682,
-      "change": 0,
+      "volume": 45,
+      "oi": 1683,
+      "change": 1,
       "prev_oi": 1682
     },
     {
@@ -7100,10 +7079,10 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 52500,
-      "volume": 11,
-      "oi": 350,
-      "change": 11,
-      "prev_oi": 339
+      "volume": 19,
+      "oi": 362,
+      "change": 12,
+      "prev_oi": 350
     },
     {
       "type": "PUT",
@@ -7118,7 +7097,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 53000,
-      "volume": 8,
+      "volume": 32,
       "oi": 167,
       "change": 0,
       "prev_oi": 167
@@ -7127,7 +7106,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 53250,
-      "volume": 3,
+      "volume": 0,
       "oi": 18,
       "change": 0,
       "prev_oi": 18
@@ -7136,7 +7115,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 53500,
-      "volume": 104,
+      "volume": 0,
       "oi": 401,
       "change": 0,
       "prev_oi": 401
@@ -7145,7 +7124,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 53750,
-      "volume": 13,
+      "volume": 0,
       "oi": 40,
       "change": 0,
       "prev_oi": 40
@@ -7154,7 +7133,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 54000,
-      "volume": 108,
+      "volume": 1,
       "oi": 630,
       "change": 0,
       "prev_oi": 630
@@ -7163,19 +7142,19 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 54250,
-      "volume": 2,
+      "volume": 0,
       "oi": 16,
-      "change": -2,
-      "prev_oi": 18
+      "change": 0,
+      "prev_oi": 16
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 54500,
-      "volume": 100,
-      "oi": 401,
-      "change": 100,
-      "prev_oi": 301
+      "volume": 600,
+      "oi": 1001,
+      "change": 600,
+      "prev_oi": 401
     },
     {
       "type": "PUT",
@@ -7190,16 +7169,16 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 55000,
-      "volume": 7,
+      "volume": 0,
       "oi": 52,
-      "change": 1,
-      "prev_oi": 51
+      "change": 0,
+      "prev_oi": 52
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 55250,
-      "volume": 3,
+      "volume": 0,
       "oi": 30,
       "change": 0,
       "prev_oi": 30
@@ -7226,28 +7205,28 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 56000,
-      "volume": 6,
-      "oi": 612,
-      "change": 6,
-      "prev_oi": 606
+      "volume": 102,
+      "oi": 714,
+      "change": 102,
+      "prev_oi": 612
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 56250,
-      "volume": 4,
-      "oi": 10,
-      "change": 4,
-      "prev_oi": 6
+      "volume": 6,
+      "oi": 15,
+      "change": 5,
+      "prev_oi": 10
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 56500,
-      "volume": 10,
+      "volume": 0,
       "oi": 53,
-      "change": 6,
-      "prev_oi": 47
+      "change": 0,
+      "prev_oi": 53
     },
     {
       "type": "PUT",
@@ -7262,73 +7241,73 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 57000,
-      "volume": 122,
-      "oi": 715,
-      "change": 104,
-      "prev_oi": 611
+      "volume": 100,
+      "oi": 615,
+      "change": -100,
+      "prev_oi": 715
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 57250,
-      "volume": 15,
+      "volume": 0,
       "oi": 66,
-      "change": 12,
-      "prev_oi": 54
+      "change": 0,
+      "prev_oi": 66
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 57500,
-      "volume": 2,
+      "volume": 0,
       "oi": 424,
-      "change": 2,
-      "prev_oi": 422
+      "change": 0,
+      "prev_oi": 424
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 57750,
-      "volume": 6,
+      "volume": 0,
       "oi": 12,
-      "change": 6,
-      "prev_oi": 6
+      "change": 0,
+      "prev_oi": 12
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 58000,
-      "volume": 115,
+      "volume": 0,
       "oi": 482,
-      "change": 115,
-      "prev_oi": 367
+      "change": 0,
+      "prev_oi": 482
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 58250,
-      "volume": 36,
+      "volume": 0,
       "oi": 63,
-      "change": 36,
-      "prev_oi": 27
+      "change": 0,
+      "prev_oi": 63
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 58500,
-      "volume": 8,
-      "oi": 156,
+      "volume": 9,
+      "oi": 162,
       "change": 6,
-      "prev_oi": 150
+      "prev_oi": 156
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 59000,
-      "volume": 100,
+      "volume": 0,
       "oi": 242,
-      "change": 100,
-      "prev_oi": 142
+      "change": 0,
+      "prev_oi": 242
     },
     {
       "type": "PUT",
@@ -7352,9 +7331,9 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 60000,
-      "volume": 0,
-      "oi": 599,
-      "change": 0,
+      "volume": 8,
+      "oi": 607,
+      "change": 8,
       "prev_oi": 599
     },
     {
@@ -7379,7 +7358,7 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 61000,
-      "volume": 7,
+      "volume": 0,
       "oi": 521,
       "change": 0,
       "prev_oi": 521
@@ -7388,82 +7367,73 @@
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 61250,
-      "volume": 4,
+      "volume": 0,
       "oi": 14,
-      "change": 4,
-      "prev_oi": 10
+      "change": 0,
+      "prev_oi": 14
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 61500,
-      "volume": 5,
-      "oi": 23,
-      "change": 5,
-      "prev_oi": 18
+      "volume": 0,
+      "oi": 18,
+      "change": -5,
+      "prev_oi": 23
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 62000,
-      "volume": 0,
-      "oi": 1045,
-      "change": 0,
+      "volume": 250,
+      "oi": 1295,
+      "change": 250,
       "prev_oi": 1045
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 62500,
-      "volume": 5,
+      "volume": 0,
       "oi": 147,
-      "change": 3,
-      "prev_oi": 144
+      "change": 0,
+      "prev_oi": 147
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 63000,
-      "volume": 0,
-      "oi": 400,
-      "change": 0,
+      "volume": 150,
+      "oi": 550,
+      "change": 150,
       "prev_oi": 400
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 64000,
-      "volume": 0,
-      "oi": 523,
-      "change": 0,
+      "volume": 203,
+      "oi": 626,
+      "change": 103,
       "prev_oi": 523
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
-      "strike": 64125,
-      "volume": 1,
-      "oi": 0,
-      "change": 0,
-      "prev_oi": 0
-    },
-    {
-      "type": "PUT",
-      "expiry": "2026-11",
       "strike": 64500,
-      "volume": 11,
-      "oi": 340,
-      "change": 0,
+      "volume": 40,
+      "oi": 300,
+      "change": -40,
       "prev_oi": 340
     },
     {
       "type": "PUT",
       "expiry": "2026-11",
       "strike": 65000,
-      "volume": 200,
+      "volume": 0,
       "oi": 1001,
-      "change": 200,
-      "prev_oi": 801
+      "change": 0,
+      "prev_oi": 1001
     },
     {
       "type": "PUT",
